@@ -1,0 +1,220 @@
+2020/05/20 14:30:19 [error] 20068#20068: *1 open() "/home/payalt/web/ptr.twigtraining.40.aum/favicon.ico" failed (2: No such file or directory), client: 127.0.0.1, server: ptr.twigtraining.40.aum, request: "GET /favicon.ico HTTP/1.1", host: "ptr.twigtraining.40.aum", referrer: "http://ptr.twigtraining.40.aum/"
+2020/05/20 14:33:41 [error] 20202#20202: *1 open() "/home/payalt/web/ptr.twigtraining.40.aum/favicon.ico" failed (2: No such file or directory), client: 127.0.0.1, server: ptr.twigtraining.40.aum, request: "GET /favicon.ico HTTP/1.1", host: "ptr.twigtraining.40.aum", referrer: "http://ptr.twigtraining.40.aum/"
+2020/05/20 14:34:24 [error] 20202#20202: *1 open() "/home/payalt/web/ptr.twigtraining.40.aum/favicon.ico" failed (2: No such file or directory), client: 127.0.0.1, server: ptr.twigtraining.40.aum, request: "GET /favicon.ico HTTP/1.1", host: "ptr.twigtraining.40.aum", referrer: "http://ptr.twigtraining.40.aum/"
+2020/05/20 14:34:24 [error] 20202#20202: *1 open() "/home/payalt/web/ptr.twigtraining.40.aum/favicon.ico" failed (2: No such file or directory), client: 127.0.0.1, server: ptr.twigtraining.40.aum, request: "GET /favicon.ico HTTP/1.1", host: "ptr.twigtraining.40.aum", referrer: "http://ptr.twigtraining.40.aum/"
+2020/05/20 14:34:24 [error] 20202#20202: *1 open() "/home/payalt/web/ptr.twigtraining.40.aum/favicon.ico" failed (2: No such file or directory), client: 127.0.0.1, server: ptr.twigtraining.40.aum, request: "GET /favicon.ico HTTP/1.1", host: "ptr.twigtraining.40.aum", referrer: "http://ptr.twigtraining.40.aum/"
+2020/05/20 14:34:25 [error] 20202#20202: *1 open() "/home/payalt/web/ptr.twigtraining.40.aum/favicon.ico" failed (2: No such file or directory), client: 127.0.0.1, server: ptr.twigtraining.40.aum, request: "GET /favicon.ico HTTP/1.1", host: "ptr.twigtraining.40.aum", referrer: "http://ptr.twigtraining.40.aum/"
+2020/05/20 14:34:25 [error] 20202#20202: *1 open() "/home/payalt/web/ptr.twigtraining.40.aum/favicon.ico" failed (2: No such file or directory), client: 127.0.0.1, server: ptr.twigtraining.40.aum, request: "GET /favicon.ico HTTP/1.1", host: "ptr.twigtraining.40.aum", referrer: "http://ptr.twigtraining.40.aum/"
+2020/05/20 14:39:34 [error] 20340#20340: *3 FastCGI sent in stderr: "Primary script unknown" while reading response header from upstream, client: 127.0.0.1, server: ptr.twigtraining.40.aum, request: "GET /boostrap.php HTTP/1.1", upstream: "fastcgi://unix:/run/php/php7.2-fpm.sock:", host: "ptr.twigtraining.40.aum"
+2020/05/20 14:39:47 [error] 20340#20340: *3 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught Twig\Error\LoaderError: The "/home/payalt/web/ptr.twigtraining.40.aum/templates" directory does not exist ("/home/payalt/web/ptr.twigtraining.40.aum/templates"). in /home/payalt/web/ptr.twigtraining.40.aum/vendor/twig/twig/src/Loader/FilesystemLoader.php:92
+Stack trace:
+#0 /home/payalt/web/ptr.twigtraining.40.aum/vendor/twig/twig/src/Loader/FilesystemLoader.php(78): Twig\Loader\FilesystemLoader->addPath('/home/payalt/we...', '__main__')
+#1 /home/payalt/web/ptr.twigtraining.40.aum/vendor/twig/twig/src/Loader/FilesystemLoader.php(45): Twig\Loader\FilesystemLoader->setPaths(Array)
+#2 /home/payalt/web/ptr.twigtraining.40.aum/bootstrap.php(7): Twig\Loader\FilesystemLoader->__construct('/home/payalt/we...')
+#3 {main}
+  thrown in /home/payalt/web/ptr.twigtraining.40.aum/vendor/twig/twig/src/Loader/FilesystemLoader.php on line 92" while reading response header from upstream, client: 127.0.0.1, server: ptr.twigtraining.40.aum, request: "GET /bootstrap.php HTTP/1.1", upstream: "fastcgi://unix:/run/php/php7.2-fpm.sock:", host: "ptr.twigtraining.40.aum"
+2020/05/20 15:04:35 [error] 20340#20340: *11 FastCGI sent in stderr: "Primary script unknown" while reading response header from upstream, client: 127.0.0.1, server: ptr.twigtraining.40.aum, request: "GET /helloworld.php HTTP/1.1", upstream: "fastcgi://unix:/run/php/php7.2-fpm.sock:", host: "ptr.twigtraining.40.aum"
+2020/05/20 15:05:11 [error] 20340#20340: *11 FastCGI sent in stderr: "PHP message: PHP Warning:  require_once(/home/payalt/web/ptr.twigtraining.40.aum/bootstrap.php): failed to open stream: No such file or directory in /home/payalt/web/ptr.twigtraining.40.aum/helloworld.php on line 3
+PHP message: PHP Fatal error:  require_once(): Failed opening required '/home/payalt/web/ptr.twigtraining.40.aum/bootstrap.php' (include_path='.:/usr/share/php') in /home/payalt/web/ptr.twigtraining.40.aum/helloworld.php on line 3" while reading response header from upstream, client: 127.0.0.1, server: ptr.twigtraining.40.aum, request: "GET /helloworld.php HTTP/1.1", upstream: "fastcgi://unix:/run/php/php7.2-fpm.sock:", host: "ptr.twigtraining.40.aum"
+2020/05/20 15:06:32 [error] 20340#20340: *16 FastCGI sent in stderr: "PHP message: PHP Warning:  require_once(/home/payalt/web/ptr.twigtraining.40.aum../bootstrap.php): failed to open stream: No such file or directory in /home/payalt/web/ptr.twigtraining.40.aum/helloworld.php on line 3
+PHP message: PHP Fatal error:  require_once(): Failed opening required '/home/payalt/web/ptr.twigtraining.40.aum../bootstrap.php' (include_path='.:/usr/share/php') in /home/payalt/web/ptr.twigtraining.40.aum/helloworld.php on line 3" while reading response header from upstream, client: 127.0.0.1, server: ptr.twigtraining.40.aum, request: "GET /helloworld.php HTTP/1.1", upstream: "fastcgi://unix:/run/php/php7.2-fpm.sock:", host: "ptr.twigtraining.40.aum"
+2020/05/20 15:06:56 [error] 20340#20340: *16 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught Twig\Error\LoaderError: Unable to find template "helloworld.html.twig" (looked into: /home/payalt/web/ptr.twigtraining.40.aum/templates). in /home/payalt/web/ptr.twigtraining.40.aum/vendor/twig/twig/src/Loader/FilesystemLoader.php:227
+Stack trace:
+#0 /home/payalt/web/ptr.twigtraining.40.aum/vendor/twig/twig/src/Loader/FilesystemLoader.php(131): Twig\Loader\FilesystemLoader->findTemplate('helloworld.html...')
+#1 /home/payalt/web/ptr.twigtraining.40.aum/vendor/twig/twig/src/Environment.php(261): Twig\Loader\FilesystemLoader->getCacheKey('helloworld.html...')
+#2 /home/payalt/web/ptr.twigtraining.40.aum/vendor/twig/twig/src/Environment.php(309): Twig\Environment->getTemplateClass('helloworld.html...')
+#3 /home/payalt/web/ptr.twigtraining.40.aum/vendor/twig/twig/src/Environment.php(277): Twig\Environment->load('helloworld.html...')
+#4 /home/payalt/web/ptr.twigtraining.40.aum/helloworld.php(10): Twig\Environment->render('helloworld.html...', Array)
+#5 {main}
+  thrown in /" while reading response header from upstream, client: 127.0.0.1, server: ptr.twigtraining.40.aum, request: "GET /helloworld.php HTTP/1.1", upstream: "fastcgi://unix:/run/php/php7.2-fpm.sock:", host: "ptr.twigtraining.40.aum"
+2020/05/20 15:06:58 [error] 20340#20340: *16 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught Twig\Error\LoaderError: Unable to find template "helloworld.html.twig" (looked into: /home/payalt/web/ptr.twigtraining.40.aum/templates). in /home/payalt/web/ptr.twigtraining.40.aum/vendor/twig/twig/src/Loader/FilesystemLoader.php:227
+Stack trace:
+#0 /home/payalt/web/ptr.twigtraining.40.aum/vendor/twig/twig/src/Loader/FilesystemLoader.php(131): Twig\Loader\FilesystemLoader->findTemplate('helloworld.html...')
+#1 /home/payalt/web/ptr.twigtraining.40.aum/vendor/twig/twig/src/Environment.php(261): Twig\Loader\FilesystemLoader->getCacheKey('helloworld.html...')
+#2 /home/payalt/web/ptr.twigtraining.40.aum/vendor/twig/twig/src/Environment.php(309): Twig\Environment->getTemplateClass('helloworld.html...')
+#3 /home/payalt/web/ptr.twigtraining.40.aum/vendor/twig/twig/src/Environment.php(277): Twig\Environment->load('helloworld.html...')
+#4 /home/payalt/web/ptr.twigtraining.40.aum/helloworld.php(10): Twig\Environment->render('helloworld.html...', Array)
+#5 {main}
+  thrown in /" while reading response header from upstream, client: 127.0.0.1, server: ptr.twigtraining.40.aum, request: "GET /helloworld.php HTTP/1.1", upstream: "fastcgi://unix:/run/php/php7.2-fpm.sock:", host: "ptr.twigtraining.40.aum"
+2020/05/20 15:09:57 [error] 20340#20340: *22 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught Twig\Error\LoaderError: Unable to find template "templates/helloworld.html.twig" (looked into: /home/payalt/web/ptr.twigtraining.40.aum/templates). in /home/payalt/web/ptr.twigtraining.40.aum/vendor/twig/twig/src/Loader/FilesystemLoader.php:227
+Stack trace:
+#0 /home/payalt/web/ptr.twigtraining.40.aum/vendor/twig/twig/src/Loader/FilesystemLoader.php(131): Twig\Loader\FilesystemLoader->findTemplate('templates/hello...')
+#1 /home/payalt/web/ptr.twigtraining.40.aum/vendor/twig/twig/src/Environment.php(261): Twig\Loader\FilesystemLoader->getCacheKey('templates/hello...')
+#2 /home/payalt/web/ptr.twigtraining.40.aum/vendor/twig/twig/src/Environment.php(309): Twig\Environment->getTemplateClass('templates/hello...')
+#3 /home/payalt/web/ptr.twigtraining.40.aum/vendor/twig/twig/src/Environment.php(277): Twig\Environment->load('templates/hello...')
+#4 /home/payalt/web/ptr.twigtraining.40.aum/helloworld.php(10): Twig\Environment->render('templates/hello...', Array)
+#5 {main}
+  t" while reading response header from upstream, client: 127.0.0.1, server: ptr.twigtraining.40.aum, request: "GET /helloworld.php HTTP/1.1", upstream: "fastcgi://unix:/run/php/php7.2-fpm.sock:", host: "ptr.twigtraining.40.aum"
+2020/05/20 15:09:58 [error] 20340#20340: *22 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught Twig\Error\LoaderError: Unable to find template "templates/helloworld.html.twig" (looked into: /home/payalt/web/ptr.twigtraining.40.aum/templates). in /home/payalt/web/ptr.twigtraining.40.aum/vendor/twig/twig/src/Loader/FilesystemLoader.php:227
+Stack trace:
+#0 /home/payalt/web/ptr.twigtraining.40.aum/vendor/twig/twig/src/Loader/FilesystemLoader.php(131): Twig\Loader\FilesystemLoader->findTemplate('templates/hello...')
+#1 /home/payalt/web/ptr.twigtraining.40.aum/vendor/twig/twig/src/Environment.php(261): Twig\Loader\FilesystemLoader->getCacheKey('templates/hello...')
+#2 /home/payalt/web/ptr.twigtraining.40.aum/vendor/twig/twig/src/Environment.php(309): Twig\Environment->getTemplateClass('templates/hello...')
+#3 /home/payalt/web/ptr.twigtraining.40.aum/vendor/twig/twig/src/Environment.php(277): Twig\Environment->load('templates/hello...')
+#4 /home/payalt/web/ptr.twigtraining.40.aum/helloworld.php(10): Twig\Environment->render('templates/hello...', Array)
+#5 {main}
+  t" while reading response header from upstream, client: 127.0.0.1, server: ptr.twigtraining.40.aum, request: "GET /helloworld.php HTTP/1.1", upstream: "fastcgi://unix:/run/php/php7.2-fpm.sock:", host: "ptr.twigtraining.40.aum"
+2020/05/20 15:17:17 [error] 20340#20340: *26 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught Twig\Error\LoaderError: The "/templates" directory does not exist ("/templates"). in /home/payalt/web/ptr.twigtraining.40.aum/vendor/twig/twig/src/Loader/FilesystemLoader.php:92
+Stack trace:
+#0 /home/payalt/web/ptr.twigtraining.40.aum/vendor/twig/twig/src/Loader/FilesystemLoader.php(78): Twig\Loader\FilesystemLoader->addPath('/templates', '__main__')
+#1 /home/payalt/web/ptr.twigtraining.40.aum/vendor/twig/twig/src/Loader/FilesystemLoader.php(45): Twig\Loader\FilesystemLoader->setPaths(Array)
+#2 /home/payalt/web/ptr.twigtraining.40.aum/bootstrap.php(7): Twig\Loader\FilesystemLoader->__construct('/templates')
+#3 /home/payalt/web/ptr.twigtraining.40.aum/helloworld.php(3): require_once('/home/payalt/we...')
+#4 {main}
+  thrown in /home/payalt/web/ptr.twigtraining.40.aum/vendor/twig/twig/src/Loader/FilesystemLoader.php on line 92" while reading response header from upstream, client: 127.0.0.1, server: ptr.twigtraining.40.aum, request: "GET /helloworld.php HTTP/1.1", upstream: "fastcgi://unix:/run/php/php7.2-fpm.sock:", host: "ptr.twigtraining.40.aum"
+2020/05/20 15:17:28 [error] 20340#20340: *26 FastCGI sent in stderr: "PHP message: PHP Warning:  require_once(/vendor/autoload.php): failed to open stream: No such file or directory in /home/payalt/web/ptr.twigtraining.40.aum/bootstrap.php on line 4
+PHP message: PHP Fatal error:  require_once(): Failed opening required '/vendor/autoload.php' (include_path='.:/usr/share/php') in /home/payalt/web/ptr.twigtraining.40.aum/bootstrap.php on line 4" while reading response header from upstream, client: 127.0.0.1, server: ptr.twigtraining.40.aum, request: "GET /helloworld.php HTTP/1.1", upstream: "fastcgi://unix:/run/php/php7.2-fpm.sock:", host: "ptr.twigtraining.40.aum"
+2020/05/20 15:17:45 [error] 20340#20340: *26 FastCGI sent in stderr: "PHP message: PHP Warning:  require_once(/bootstrap.php): failed to open stream: No such file or directory in /home/payalt/web/ptr.twigtraining.40.aum/helloworld.php on line 3
+PHP message: PHP Fatal error:  require_once(): Failed opening required '/bootstrap.php' (include_path='.:/usr/share/php') in /home/payalt/web/ptr.twigtraining.40.aum/helloworld.php on line 3" while reading response header from upstream, client: 127.0.0.1, server: ptr.twigtraining.40.aum, request: "GET /helloworld.php HTTP/1.1", upstream: "fastcgi://unix:/run/php/php7.2-fpm.sock:", host: "ptr.twigtraining.40.aum"
+2020/05/20 15:17:46 [error] 20340#20340: *26 FastCGI sent in stderr: "PHP message: PHP Warning:  require_once(/bootstrap.php): failed to open stream: No such file or directory in /home/payalt/web/ptr.twigtraining.40.aum/helloworld.php on line 3
+PHP message: PHP Fatal error:  require_once(): Failed opening required '/bootstrap.php' (include_path='.:/usr/share/php') in /home/payalt/web/ptr.twigtraining.40.aum/helloworld.php on line 3" while reading response header from upstream, client: 127.0.0.1, server: ptr.twigtraining.40.aum, request: "GET /helloworld.php HTTP/1.1", upstream: "fastcgi://unix:/run/php/php7.2-fpm.sock:", host: "ptr.twigtraining.40.aum"
+2020/05/20 15:17:46 [error] 20340#20340: *26 FastCGI sent in stderr: "PHP message: PHP Warning:  require_once(/bootstrap.php): failed to open stream: No such file or directory in /home/payalt/web/ptr.twigtraining.40.aum/helloworld.php on line 3
+PHP message: PHP Fatal error:  require_once(): Failed opening required '/bootstrap.php' (include_path='.:/usr/share/php') in /home/payalt/web/ptr.twigtraining.40.aum/helloworld.php on line 3" while reading response header from upstream, client: 127.0.0.1, server: ptr.twigtraining.40.aum, request: "GET /helloworld.php HTTP/1.1", upstream: "fastcgi://unix:/run/php/php7.2-fpm.sock:", host: "ptr.twigtraining.40.aum"
+2020/05/20 15:17:48 [error] 20340#20340: *26 FastCGI sent in stderr: "PHP message: PHP Warning:  require_once(/bootstrap.php): failed to open stream: No such file or directory in /home/payalt/web/ptr.twigtraining.40.aum/helloworld.php on line 3
+PHP message: PHP Fatal error:  require_once(): Failed opening required '/bootstrap.php' (include_path='.:/usr/share/php') in /home/payalt/web/ptr.twigtraining.40.aum/helloworld.php on line 3" while reading response header from upstream, client: 127.0.0.1, server: ptr.twigtraining.40.aum, request: "GET /helloworld.php HTTP/1.1", upstream: "fastcgi://unix:/run/php/php7.2-fpm.sock:", host: "ptr.twigtraining.40.aum"
+2020/05/20 15:18:25 [error] 20340#20340: *26 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught Twig\Error\LoaderError: Unable to find template "templates/helloworld.html.twig" (looked into: ./templates). in /home/payalt/web/ptr.twigtraining.40.aum/vendor/twig/twig/src/Loader/FilesystemLoader.php:227
+Stack trace:
+#0 /home/payalt/web/ptr.twigtraining.40.aum/vendor/twig/twig/src/Loader/FilesystemLoader.php(131): Twig\Loader\FilesystemLoader->findTemplate('templates/hello...')
+#1 /home/payalt/web/ptr.twigtraining.40.aum/vendor/twig/twig/src/Environment.php(261): Twig\Loader\FilesystemLoader->getCacheKey('templates/hello...')
+#2 /home/payalt/web/ptr.twigtraining.40.aum/vendor/twig/twig/src/Environment.php(309): Twig\Environment->getTemplateClass('templates/hello...')
+#3 /home/payalt/web/ptr.twigtraining.40.aum/vendor/twig/twig/src/Environment.php(277): Twig\Environment->load('templates/hello...')
+#4 /home/payalt/web/ptr.twigtraining.40.aum/helloworld.php(10): Twig\Environment->render('templates/hello...', Array)
+#5 {main}
+  thrown in /home/payalt/web/ptr.twigtrain" while reading response header from upstream, client: 127.0.0.1, server: ptr.twigtraining.40.aum, request: "GET /helloworld.php HTTP/1.1", upstream: "fastcgi://unix:/run/php/php7.2-fpm.sock:", host: "ptr.twigtraining.40.aum"
+2020/05/20 15:18:26 [error] 20340#20340: *26 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught Twig\Error\LoaderError: Unable to find template "templates/helloworld.html.twig" (looked into: ./templates). in /home/payalt/web/ptr.twigtraining.40.aum/vendor/twig/twig/src/Loader/FilesystemLoader.php:227
+Stack trace:
+#0 /home/payalt/web/ptr.twigtraining.40.aum/vendor/twig/twig/src/Loader/FilesystemLoader.php(131): Twig\Loader\FilesystemLoader->findTemplate('templates/hello...')
+#1 /home/payalt/web/ptr.twigtraining.40.aum/vendor/twig/twig/src/Environment.php(261): Twig\Loader\FilesystemLoader->getCacheKey('templates/hello...')
+#2 /home/payalt/web/ptr.twigtraining.40.aum/vendor/twig/twig/src/Environment.php(309): Twig\Environment->getTemplateClass('templates/hello...')
+#3 /home/payalt/web/ptr.twigtraining.40.aum/vendor/twig/twig/src/Environment.php(277): Twig\Environment->load('templates/hello...')
+#4 /home/payalt/web/ptr.twigtraining.40.aum/helloworld.php(10): Twig\Environment->render('templates/hello...', Array)
+#5 {main}
+  thrown in /home/payalt/web/ptr.twigtrain" while reading response header from upstream, client: 127.0.0.1, server: ptr.twigtraining.40.aum, request: "GET /helloworld.php HTTP/1.1", upstream: "fastcgi://unix:/run/php/php7.2-fpm.sock:", host: "ptr.twigtraining.40.aum"
+2020/05/20 15:18:26 [error] 20340#20340: *26 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught Twig\Error\LoaderError: Unable to find template "templates/helloworld.html.twig" (looked into: ./templates). in /home/payalt/web/ptr.twigtraining.40.aum/vendor/twig/twig/src/Loader/FilesystemLoader.php:227
+Stack trace:
+#0 /home/payalt/web/ptr.twigtraining.40.aum/vendor/twig/twig/src/Loader/FilesystemLoader.php(131): Twig\Loader\FilesystemLoader->findTemplate('templates/hello...')
+#1 /home/payalt/web/ptr.twigtraining.40.aum/vendor/twig/twig/src/Environment.php(261): Twig\Loader\FilesystemLoader->getCacheKey('templates/hello...')
+#2 /home/payalt/web/ptr.twigtraining.40.aum/vendor/twig/twig/src/Environment.php(309): Twig\Environment->getTemplateClass('templates/hello...')
+#3 /home/payalt/web/ptr.twigtraining.40.aum/vendor/twig/twig/src/Environment.php(277): Twig\Environment->load('templates/hello...')
+#4 /home/payalt/web/ptr.twigtraining.40.aum/helloworld.php(10): Twig\Environment->render('templates/hello...', Array)
+#5 {main}
+  thrown in /home/payalt/web/ptr.twigtrain" while reading response header from upstream, client: 127.0.0.1, server: ptr.twigtraining.40.aum, request: "GET /helloworld.php HTTP/1.1", upstream: "fastcgi://unix:/run/php/php7.2-fpm.sock:", host: "ptr.twigtraining.40.aum"
+2020/05/20 15:18:26 [error] 20340#20340: *26 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught Twig\Error\LoaderError: Unable to find template "templates/helloworld.html.twig" (looked into: ./templates). in /home/payalt/web/ptr.twigtraining.40.aum/vendor/twig/twig/src/Loader/FilesystemLoader.php:227
+Stack trace:
+#0 /home/payalt/web/ptr.twigtraining.40.aum/vendor/twig/twig/src/Loader/FilesystemLoader.php(131): Twig\Loader\FilesystemLoader->findTemplate('templates/hello...')
+#1 /home/payalt/web/ptr.twigtraining.40.aum/vendor/twig/twig/src/Environment.php(261): Twig\Loader\FilesystemLoader->getCacheKey('templates/hello...')
+#2 /home/payalt/web/ptr.twigtraining.40.aum/vendor/twig/twig/src/Environment.php(309): Twig\Environment->getTemplateClass('templates/hello...')
+#3 /home/payalt/web/ptr.twigtraining.40.aum/vendor/twig/twig/src/Environment.php(277): Twig\Environment->load('templates/hello...')
+#4 /home/payalt/web/ptr.twigtraining.40.aum/helloworld.php(10): Twig\Environment->render('templates/hello...', Array)
+#5 {main}
+  thrown in /home/payalt/web/ptr.twigtrain" while reading response header from upstream, client: 127.0.0.1, server: ptr.twigtraining.40.aum, request: "GET /helloworld.php HTTP/1.1", upstream: "fastcgi://unix:/run/php/php7.2-fpm.sock:", host: "ptr.twigtraining.40.aum"
+2020/05/20 15:18:48 [error] 20340#20340: *26 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught Twig\Error\LoaderError: Unable to find template "templates/helloworld.html.twig" (looked into: ./templates). in /home/payalt/web/ptr.twigtraining.40.aum/vendor/twig/twig/src/Loader/FilesystemLoader.php:227
+Stack trace:
+#0 /home/payalt/web/ptr.twigtraining.40.aum/vendor/twig/twig/src/Loader/FilesystemLoader.php(131): Twig\Loader\FilesystemLoader->findTemplate('templates/hello...')
+#1 /home/payalt/web/ptr.twigtraining.40.aum/vendor/twig/twig/src/Environment.php(261): Twig\Loader\FilesystemLoader->getCacheKey('templates/hello...')
+#2 /home/payalt/web/ptr.twigtraining.40.aum/vendor/twig/twig/src/Environment.php(309): Twig\Environment->getTemplateClass('templates/hello...')
+#3 /home/payalt/web/ptr.twigtraining.40.aum/vendor/twig/twig/src/Environment.php(277): Twig\Environment->load('templates/hello...')
+#4 /home/payalt/web/ptr.twigtraining.40.aum/helloworld.php(10): Twig\Environment->render('templates/hello...', Array)
+#5 {main}
+  thrown in /home/payalt/web/ptr.twigtrain" while reading response header from upstream, client: 127.0.0.1, server: ptr.twigtraining.40.aum, request: "GET /helloworld.php HTTP/1.1", upstream: "fastcgi://unix:/run/php/php7.2-fpm.sock:", host: "ptr.twigtraining.40.aum"
+2020/05/20 15:18:49 [error] 20340#20340: *26 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught Twig\Error\LoaderError: Unable to find template "templates/helloworld.html.twig" (looked into: ./templates). in /home/payalt/web/ptr.twigtraining.40.aum/vendor/twig/twig/src/Loader/FilesystemLoader.php:227
+Stack trace:
+#0 /home/payalt/web/ptr.twigtraining.40.aum/vendor/twig/twig/src/Loader/FilesystemLoader.php(131): Twig\Loader\FilesystemLoader->findTemplate('templates/hello...')
+#1 /home/payalt/web/ptr.twigtraining.40.aum/vendor/twig/twig/src/Environment.php(261): Twig\Loader\FilesystemLoader->getCacheKey('templates/hello...')
+#2 /home/payalt/web/ptr.twigtraining.40.aum/vendor/twig/twig/src/Environment.php(309): Twig\Environment->getTemplateClass('templates/hello...')
+#3 /home/payalt/web/ptr.twigtraining.40.aum/vendor/twig/twig/src/Environment.php(277): Twig\Environment->load('templates/hello...')
+#4 /home/payalt/web/ptr.twigtraining.40.aum/helloworld.php(10): Twig\Environment->render('templates/hello...', Array)
+#5 {main}
+  thrown in /home/payalt/web/ptr.twigtrain" while reading response header from upstream, client: 127.0.0.1, server: ptr.twigtraining.40.aum, request: "GET /helloworld.php HTTP/1.1", upstream: "fastcgi://unix:/run/php/php7.2-fpm.sock:", host: "ptr.twigtraining.40.aum"
+2020/05/20 15:18:49 [error] 20340#20340: *26 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught Twig\Error\LoaderError: Unable to find template "templates/helloworld.html.twig" (looked into: ./templates). in /home/payalt/web/ptr.twigtraining.40.aum/vendor/twig/twig/src/Loader/FilesystemLoader.php:227
+Stack trace:
+#0 /home/payalt/web/ptr.twigtraining.40.aum/vendor/twig/twig/src/Loader/FilesystemLoader.php(131): Twig\Loader\FilesystemLoader->findTemplate('templates/hello...')
+#1 /home/payalt/web/ptr.twigtraining.40.aum/vendor/twig/twig/src/Environment.php(261): Twig\Loader\FilesystemLoader->getCacheKey('templates/hello...')
+#2 /home/payalt/web/ptr.twigtraining.40.aum/vendor/twig/twig/src/Environment.php(309): Twig\Environment->getTemplateClass('templates/hello...')
+#3 /home/payalt/web/ptr.twigtraining.40.aum/vendor/twig/twig/src/Environment.php(277): Twig\Environment->load('templates/hello...')
+#4 /home/payalt/web/ptr.twigtraining.40.aum/helloworld.php(10): Twig\Environment->render('templates/hello...', Array)
+#5 {main}
+  thrown in /home/payalt/web/ptr.twigtrain" while reading response header from upstream, client: 127.0.0.1, server: ptr.twigtraining.40.aum, request: "GET /helloworld.php HTTP/1.1", upstream: "fastcgi://unix:/run/php/php7.2-fpm.sock:", host: "ptr.twigtraining.40.aum"
+2020/05/20 15:31:27 [error] 20340#20340: *45 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught Twig\Error\LoaderError: Unable to find template "templates/helloworld.html.twig" (looked into: /home/payalt/web/ptr.twigtraining.40.aum/templates). in /home/payalt/web/ptr.twigtraining.40.aum/vendor/twig/twig/src/Loader/FilesystemLoader.php:227
+Stack trace:
+#0 /home/payalt/web/ptr.twigtraining.40.aum/vendor/twig/twig/src/Loader/FilesystemLoader.php(131): Twig\Loader\FilesystemLoader->findTemplate('templates/hello...')
+#1 /home/payalt/web/ptr.twigtraining.40.aum/vendor/twig/twig/src/Environment.php(261): Twig\Loader\FilesystemLoader->getCacheKey('templates/hello...')
+#2 /home/payalt/web/ptr.twigtraining.40.aum/vendor/twig/twig/src/Environment.php(309): Twig\Environment->getTemplateClass('templates/hello...')
+#3 /home/payalt/web/ptr.twigtraining.40.aum/vendor/twig/twig/src/Environment.php(277): Twig\Environment->load('templates/hello...')
+#4 /home/payalt/web/ptr.twigtraining.40.aum/helloworld.php(10): Twig\Environment->render('templates/hello...', Array)
+#5 {main}
+  t" while reading response header from upstream, client: 127.0.0.1, server: ptr.twigtraining.40.aum, request: "GET /helloworld.php HTTP/1.1", upstream: "fastcgi://unix:/run/php/php7.2-fpm.sock:", host: "ptr.twigtraining.40.aum"
+2020/05/20 15:31:41 [error] 20340#20340: *45 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught Twig\Error\LoaderError: Unable to find template "templates/helloworld.html.twig" (looked into: /home/payalt/web/ptr.twigtraining.40.aum/templates). in /home/payalt/web/ptr.twigtraining.40.aum/vendor/twig/twig/src/Loader/FilesystemLoader.php:227
+Stack trace:
+#0 /home/payalt/web/ptr.twigtraining.40.aum/vendor/twig/twig/src/Loader/FilesystemLoader.php(131): Twig\Loader\FilesystemLoader->findTemplate('templates/hello...')
+#1 /home/payalt/web/ptr.twigtraining.40.aum/vendor/twig/twig/src/Environment.php(261): Twig\Loader\FilesystemLoader->getCacheKey('templates/hello...')
+#2 /home/payalt/web/ptr.twigtraining.40.aum/vendor/twig/twig/src/Environment.php(309): Twig\Environment->getTemplateClass('templates/hello...')
+#3 /home/payalt/web/ptr.twigtraining.40.aum/vendor/twig/twig/src/Environment.php(277): Twig\Environment->load('templates/hello...')
+#4 /home/payalt/web/ptr.twigtraining.40.aum/helloworld.php(10): Twig\Environment->render('templates/hello...', Array)
+#5 {main}
+  t" while reading response header from upstream, client: 127.0.0.1, server: ptr.twigtraining.40.aum, request: "GET /helloworld.php HTTP/1.1", upstream: "fastcgi://unix:/run/php/php7.2-fpm.sock:", host: "ptr.twigtraining.40.aum"
+2020/05/20 15:37:42 [error] 20340#20340: *50 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught Twig\Error\LoaderError: Unable to find template "helloworld.html.twig" (looked into: /home/payalt/web/ptr.twigtraining.40.aum/templates). in /home/payalt/web/ptr.twigtraining.40.aum/vendor/twig/twig/src/Loader/FilesystemLoader.php:227
+Stack trace:
+#0 /home/payalt/web/ptr.twigtraining.40.aum/vendor/twig/twig/src/Loader/FilesystemLoader.php(131): Twig\Loader\FilesystemLoader->findTemplate('helloworld.html...')
+#1 /home/payalt/web/ptr.twigtraining.40.aum/vendor/twig/twig/src/Environment.php(261): Twig\Loader\FilesystemLoader->getCacheKey('helloworld.html...')
+#2 /home/payalt/web/ptr.twigtraining.40.aum/vendor/twig/twig/src/Environment.php(309): Twig\Environment->getTemplateClass('helloworld.html...')
+#3 /home/payalt/web/ptr.twigtraining.40.aum/vendor/twig/twig/src/Environment.php(277): Twig\Environment->load('helloworld.html...')
+#4 /home/payalt/web/ptr.twigtraining.40.aum/helloworld.php(10): Twig\Environment->render('helloworld.html...', Array)
+#5 {main}
+  thrown in /" while reading response header from upstream, client: 127.0.0.1, server: ptr.twigtraining.40.aum, request: "GET /helloworld.php HTTP/1.1", upstream: "fastcgi://unix:/run/php/php7.2-fpm.sock:", host: "ptr.twigtraining.40.aum"
+2020/05/20 15:37:42 [error] 20340#20340: *50 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught Twig\Error\LoaderError: Unable to find template "helloworld.html.twig" (looked into: /home/payalt/web/ptr.twigtraining.40.aum/templates). in /home/payalt/web/ptr.twigtraining.40.aum/vendor/twig/twig/src/Loader/FilesystemLoader.php:227
+Stack trace:
+#0 /home/payalt/web/ptr.twigtraining.40.aum/vendor/twig/twig/src/Loader/FilesystemLoader.php(131): Twig\Loader\FilesystemLoader->findTemplate('helloworld.html...')
+#1 /home/payalt/web/ptr.twigtraining.40.aum/vendor/twig/twig/src/Environment.php(261): Twig\Loader\FilesystemLoader->getCacheKey('helloworld.html...')
+#2 /home/payalt/web/ptr.twigtraining.40.aum/vendor/twig/twig/src/Environment.php(309): Twig\Environment->getTemplateClass('helloworld.html...')
+#3 /home/payalt/web/ptr.twigtraining.40.aum/vendor/twig/twig/src/Environment.php(277): Twig\Environment->load('helloworld.html...')
+#4 /home/payalt/web/ptr.twigtraining.40.aum/helloworld.php(10): Twig\Environment->render('helloworld.html...', Array)
+#5 {main}
+  thrown in /" while reading response header from upstream, client: 127.0.0.1, server: ptr.twigtraining.40.aum, request: "GET /helloworld.php HTTP/1.1", upstream: "fastcgi://unix:/run/php/php7.2-fpm.sock:", host: "ptr.twigtraining.40.aum"
+2020/05/20 15:38:10 [error] 20340#20340: *50 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught Twig\Error\LoaderError: Unable to find template "helloworld.html.twig" (looked into: /home/payalt/web/ptr.twigtraining.40.aum/templates). in /home/payalt/web/ptr.twigtraining.40.aum/vendor/twig/twig/src/Loader/FilesystemLoader.php:227
+Stack trace:
+#0 /home/payalt/web/ptr.twigtraining.40.aum/vendor/twig/twig/src/Loader/FilesystemLoader.php(131): Twig\Loader\FilesystemLoader->findTemplate('helloworld.html...')
+#1 /home/payalt/web/ptr.twigtraining.40.aum/vendor/twig/twig/src/Environment.php(261): Twig\Loader\FilesystemLoader->getCacheKey('helloworld.html...')
+#2 /home/payalt/web/ptr.twigtraining.40.aum/vendor/twig/twig/src/Environment.php(309): Twig\Environment->getTemplateClass('helloworld.html...')
+#3 /home/payalt/web/ptr.twigtraining.40.aum/vendor/twig/twig/src/Environment.php(277): Twig\Environment->load('helloworld.html...')
+#4 /home/payalt/web/ptr.twigtraining.40.aum/helloworld.php(10): Twig\Environment->render('helloworld.html...', Array)
+#5 {main}
+  thrown in /" while reading response header from upstream, client: 127.0.0.1, server: ptr.twigtraining.40.aum, request: "GET /helloworld.php HTTP/1.1", upstream: "fastcgi://unix:/run/php/php7.2-fpm.sock:", host: "ptr.twigtraining.40.aum"
+2020/05/20 15:38:11 [error] 20340#20340: *50 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught Twig\Error\LoaderError: Unable to find template "helloworld.html.twig" (looked into: /home/payalt/web/ptr.twigtraining.40.aum/templates). in /home/payalt/web/ptr.twigtraining.40.aum/vendor/twig/twig/src/Loader/FilesystemLoader.php:227
+Stack trace:
+#0 /home/payalt/web/ptr.twigtraining.40.aum/vendor/twig/twig/src/Loader/FilesystemLoader.php(131): Twig\Loader\FilesystemLoader->findTemplate('helloworld.html...')
+#1 /home/payalt/web/ptr.twigtraining.40.aum/vendor/twig/twig/src/Environment.php(261): Twig\Loader\FilesystemLoader->getCacheKey('helloworld.html...')
+#2 /home/payalt/web/ptr.twigtraining.40.aum/vendor/twig/twig/src/Environment.php(309): Twig\Environment->getTemplateClass('helloworld.html...')
+#3 /home/payalt/web/ptr.twigtraining.40.aum/vendor/twig/twig/src/Environment.php(277): Twig\Environment->load('helloworld.html...')
+#4 /home/payalt/web/ptr.twigtraining.40.aum/helloworld.php(10): Twig\Environment->render('helloworld.html...', Array)
+#5 {main}
+  thrown in /" while reading response header from upstream, client: 127.0.0.1, server: ptr.twigtraining.40.aum, request: "GET /helloworld.php HTTP/1.1", upstream: "fastcgi://unix:/run/php/php7.2-fpm.sock:", host: "ptr.twigtraining.40.aum"
+2020/05/20 15:42:50 [error] 20340#20340: *57 FastCGI sent in stderr: "Primary script unknown" while reading response header from upstream, client: 127.0.0.1, server: ptr.twigtraining.40.aum, request: "GET /bootsrap.php HTTP/1.1", upstream: "fastcgi://unix:/run/php/php7.2-fpm.sock:", host: "ptr.twigtraining.40.aum"
+2020/05/20 15:42:50 [error] 20340#20340: *57 open() "/home/payalt/web/ptr.twigtraining.40.aum/favicon.ico" failed (2: No such file or directory), client: 127.0.0.1, server: ptr.twigtraining.40.aum, request: "GET /favicon.ico HTTP/1.1", host: "ptr.twigtraining.40.aum", referrer: "http://ptr.twigtraining.40.aum/bootsrap.php"
+2020/05/20 15:46:56 [error] 20340#20340: *68 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught Twig\Error\LoaderError: Unable to find template "helloworld.html.twig" (looked into: /home/payalt/web/ptr.twigtraining.40.aum/templates). in /home/payalt/web/ptr.twigtraining.40.aum/vendor/twig/twig/src/Loader/FilesystemLoader.php:227
+Stack trace:
+#0 /home/payalt/web/ptr.twigtraining.40.aum/vendor/twig/twig/src/Loader/FilesystemLoader.php(131): Twig\Loader\FilesystemLoader->findTemplate('helloworld.html...')
+#1 /home/payalt/web/ptr.twigtraining.40.aum/vendor/twig/twig/src/Environment.php(261): Twig\Loader\FilesystemLoader->getCacheKey('helloworld.html...')
+#2 /home/payalt/web/ptr.twigtraining.40.aum/vendor/twig/twig/src/Environment.php(309): Twig\Environment->getTemplateClass('helloworld.html...')
+#3 /home/payalt/web/ptr.twigtraining.40.aum/vendor/twig/twig/src/Environment.php(277): Twig\Environment->load('helloworld.html...')
+#4 /home/payalt/web/ptr.twigtraining.40.aum/helloworld.php(10): Twig\Environment->render('helloworld.html...')
+#5 {main}
+  thrown in /home/pa" while reading response header from upstream, client: 127.0.0.1, server: ptr.twigtraining.40.aum, request: "GET /helloworld.php HTTP/1.1", upstream: "fastcgi://unix:/run/php/php7.2-fpm.sock:", host: "ptr.twigtraining.40.aum"
+2020/05/20 15:46:57 [error] 20340#20340: *68 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught Twig\Error\LoaderError: Unable to find template "helloworld.html.twig" (looked into: /home/payalt/web/ptr.twigtraining.40.aum/templates). in /home/payalt/web/ptr.twigtraining.40.aum/vendor/twig/twig/src/Loader/FilesystemLoader.php:227
+Stack trace:
+#0 /home/payalt/web/ptr.twigtraining.40.aum/vendor/twig/twig/src/Loader/FilesystemLoader.php(131): Twig\Loader\FilesystemLoader->findTemplate('helloworld.html...')
+#1 /home/payalt/web/ptr.twigtraining.40.aum/vendor/twig/twig/src/Environment.php(261): Twig\Loader\FilesystemLoader->getCacheKey('helloworld.html...')
+#2 /home/payalt/web/ptr.twigtraining.40.aum/vendor/twig/twig/src/Environment.php(309): Twig\Environment->getTemplateClass('helloworld.html...')
+#3 /home/payalt/web/ptr.twigtraining.40.aum/vendor/twig/twig/src/Environment.php(277): Twig\Environment->load('helloworld.html...')
+#4 /home/payalt/web/ptr.twigtraining.40.aum/helloworld.php(10): Twig\Environment->render('helloworld.html...')
+#5 {main}
+  thrown in /home/pa" while reading response header from upstream, client: 127.0.0.1, server: ptr.twigtraining.40.aum, request: "GET /helloworld.php HTTP/1.1", upstream: "fastcgi://unix:/run/php/php7.2-fpm.sock:", host: "ptr.twigtraining.40.aum"
+2020/05/20 15:47:14 [error] 20340#20340: *68 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught Twig\Error\LoaderError: Unable to find template "helloworld.html.twig" (looked into: /home/payalt/web/ptr.twigtraining.40.aum/templates). in /home/payalt/web/ptr.twigtraining.40.aum/vendor/twig/twig/src/Loader/FilesystemLoader.php:227
+Stack trace:
+#0 /home/payalt/web/ptr.twigtraining.40.aum/vendor/twig/twig/src/Loader/FilesystemLoader.php(131): Twig\Loader\FilesystemLoader->findTemplate('helloworld.html...')
+#1 /home/payalt/web/ptr.twigtraining.40.aum/vendor/twig/twig/src/Environment.php(261): Twig\Loader\FilesystemLoader->getCacheKey('helloworld.html...')
+#2 /home/payalt/web/ptr.twigtraining.40.aum/vendor/twig/twig/src/Environment.php(309): Twig\Environment->getTemplateClass('helloworld.html...')
+#3 /home/payalt/web/ptr.twigtraining.40.aum/vendor/twig/twig/src/Environment.php(277): Twig\Environment->load('helloworld.html...')
+#4 /home/payalt/web/ptr.twigtraining.40.aum/helloworld.php(10): Twig\Environment->render('helloworld.html...', Array)
+#5 {main}
+  thrown in /" while reading response header from upstream, client: 127.0.0.1, server: ptr.twigtraining.40.aum, request: "GET /helloworld.php HTTP/1.1", upstream: "fastcgi://unix:/run/php/php7.2-fpm.sock:", host: "ptr.twigtraining.40.aum"
