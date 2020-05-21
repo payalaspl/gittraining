@@ -1,0 +1,19 @@
+{% import "form.html" as forms %}
+{% autoescape 'html' %}
+{% set hello = "<strong>Hello</strong>" %}
+{{ hello }}
+{{ "<strong>world</strong>" }}
+{% do 1 + 2 %}
+{% endautoescape %}
+{% for i in 0..10 %}
+    * {{ i }}
+{% endfor %}
+<ul>
+    {% for user in users %}
+        <li>{{ user.name|e }}</li>
+    {% else %}
+        <li><em>no user found</em></li>
+    {% endfor %}
+</ul>
+<p>{{ forms.input('username') }}</p>
+<p>{{ forms.input('password', null, 'password') }}</p>
