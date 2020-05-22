@@ -1,0 +1,23 @@
+{% set number = -6 %}
+{{ number|abs }}
+{% set items = ['a', 'b', 'c', 'd', 'e', 'f', 'g'] %}
+
+<table>
+{% for row in items|batch(2, 'No item') %}
+    <tr>
+        {% for column in row %}
+            <td>{{ column }}</td>
+        {% endfor %}
+    </tr>
+{% endfor %}
+</table>
+
+
+{{ ['payal',1, 2, 3, 4]|first }}
+{# outputs 1 #}
+
+{{ "I like %s and %s."|format(foo, "bar") }}
+
+{{ 'FR'|country_name }}
+
+{{ 'US'|country_name('fr') }}

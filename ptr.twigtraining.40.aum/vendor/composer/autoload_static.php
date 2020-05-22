@@ -4,26 +4,33 @@
 
 namespace Composer\Autoload;
 
-class ComposerStaticInit7552ec7ec2938fb70f9fb00543672eee
+class ComposerStaticInite14979788a613cb64254a5beada1a6c0
 {
     public static $files = array (
-        '0e6d7bf4a5811bfa5cf40c5ccd6fae6a' => __DIR__ . '/..' . '/symfony/polyfill-mbstring/bootstrap.php',
+        '6a47392539ca2329373e0d33e1dba053' => __DIR__ . '/..' . '/symfony/polyfill-intl-icu/bootstrap.php',
         '320cde22f66dd4f5d3fd621d3e88b98f' => __DIR__ . '/..' . '/symfony/polyfill-ctype/bootstrap.php',
+        '0e6d7bf4a5811bfa5cf40c5ccd6fae6a' => __DIR__ . '/..' . '/symfony/polyfill-mbstring/bootstrap.php',
     );
 
     public static $prefixLengthsPsr4 = array (
         'T' => 
         array (
+            'Twig\\Extra\\Intl\\' => 16,
             'Twig\\' => 5,
         ),
         'S' => 
         array (
             'Symfony\\Polyfill\\Mbstring\\' => 26,
             'Symfony\\Polyfill\\Ctype\\' => 23,
+            'Symfony\\Component\\Intl\\' => 23,
         ),
     );
 
     public static $prefixDirsPsr4 = array (
+        'Twig\\Extra\\Intl\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/twig/intl-extra/src',
+        ),
         'Twig\\' => 
         array (
             0 => __DIR__ . '/..' . '/twig/twig/src',
@@ -36,18 +43,26 @@ class ComposerStaticInit7552ec7ec2938fb70f9fb00543672eee
         array (
             0 => __DIR__ . '/..' . '/symfony/polyfill-ctype',
         ),
+        'Symfony\\Component\\Intl\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/symfony/intl',
+        ),
     );
 
     public static $classMap = array (
+        'Collator' => __DIR__ . '/..' . '/symfony/intl/Resources/stubs/Collator.php',
         'Composer\\InstalledVersions' => __DIR__ . '/..' . '/composer/InstalledVersions.php',
+        'IntlDateFormatter' => __DIR__ . '/..' . '/symfony/intl/Resources/stubs/IntlDateFormatter.php',
+        'Locale' => __DIR__ . '/..' . '/symfony/intl/Resources/stubs/Locale.php',
+        'NumberFormatter' => __DIR__ . '/..' . '/symfony/intl/Resources/stubs/NumberFormatter.php',
     );
 
     public static function getInitializer(ClassLoader $loader)
     {
         return \Closure::bind(function () use ($loader) {
-            $loader->prefixLengthsPsr4 = ComposerStaticInit7552ec7ec2938fb70f9fb00543672eee::$prefixLengthsPsr4;
-            $loader->prefixDirsPsr4 = ComposerStaticInit7552ec7ec2938fb70f9fb00543672eee::$prefixDirsPsr4;
-            $loader->classMap = ComposerStaticInit7552ec7ec2938fb70f9fb00543672eee::$classMap;
+            $loader->prefixLengthsPsr4 = ComposerStaticInite14979788a613cb64254a5beada1a6c0::$prefixLengthsPsr4;
+            $loader->prefixDirsPsr4 = ComposerStaticInite14979788a613cb64254a5beada1a6c0::$prefixDirsPsr4;
+            $loader->classMap = ComposerStaticInite14979788a613cb64254a5beada1a6c0::$classMap;
 
         }, null, ClassLoader::class);
     }
