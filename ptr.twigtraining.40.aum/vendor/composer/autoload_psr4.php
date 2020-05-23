@@ -7,8 +7,11 @@ $baseDir = dirname($vendorDir);
 
 return array(
     'Twig\\Extra\\Intl\\' => array($vendorDir . '/twig/intl-extra/src'),
+    'Twig\\Extra\\CssInliner\\' => array($vendorDir . '/twig/cssinliner-extra/src'),
     'Twig\\' => array($vendorDir . '/twig/twig/src'),
+    'TijsVerkoyen\\CssToInlineStyles\\' => array($vendorDir . '/tijsverkoyen/css-to-inline-styles/src'),
     'Symfony\\Polyfill\\Mbstring\\' => array($vendorDir . '/symfony/polyfill-mbstring'),
     'Symfony\\Polyfill\\Ctype\\' => array($vendorDir . '/symfony/polyfill-ctype'),
     'Symfony\\Component\\Intl\\' => array($vendorDir . '/symfony/intl'),
+    'Symfony\\Component\\CssSelector\\' => array($vendorDir . '/symfony/css-selector'),
 );

@@ -21,3 +21,68 @@
 {{ 'FR'|country_name }}
 
 {{ 'US'|country_name('fr') }}
+
+{{ 'EUR'|currency_symbol }}
+
+
+{{ "now"|date("m/d/Y") }}
+
+{{ post.published_at|date_modify("+1 day")|date("m/d/Y") }}
+
+
+
+
+{% set sizes = {
+    xs: 34,
+    s:  36,
+    m:  38,
+    l:  40,
+    xl: 42,
+} %}
+
+{% for k, v in sizes|filter(v => v > 36) -%}
+    {{ k }} = {{ v }}
+{% endfor %}
+
+{{ '12.345'|format_currency('EUR', {rounding_mode: 'floor'}) }}
+
+{{ [1, 2, 3]|join('|') }}
+
+{{ 'de'|language_name }}
+
+{{ { a: 1, b: 2, c: 3, d: 4 }|last }}
+
+{% if users|length > 10 %}
+    {{length}}
+{% endif %}
+{{ 'de'|locale_name('fr') }}
+{{ 'WELCOME'|lower }}
+{% set people = [
+    {first: "Bob", last: "Smith"},
+    {first: "Alice", last: "Dupond"},
+] %}
+
+{{ people|map(p => "#{p.first} #{p.last}")|join(', ') }}
+
+
+{% set items = { 'apple': 'fruit', 'orange': 'fruit', 'peugeot': 'unknown' } %}
+
+{% set items = items|merge({ 'peugeot': 'car', 'renault': 'car' }) %}
+{{ (1 + 0.2)|number_format(2) }}
+
+
+{{ '1234'|reverse }}
+{{ 42.55|round(1, 'floor') }}
+{{ '12345'|slice(1, 2) }}
+{{ '12345'[1:2] }}
+
+
+{% set fruits = [
+    { name: 'Apples', quantity: 5 },
+    { name: 'Oranges', quantity: 17 },
+    { name: 'Grapes', quantity: 4 },
+] %}
+
+{% for fruit in fruits|sort((a, b) => a.quantity <=> b.quantity)|column('name') %}
+    {{ fruit }}
+{% endfor %}
