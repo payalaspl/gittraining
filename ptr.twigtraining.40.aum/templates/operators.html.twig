@@ -1,0 +1,21 @@
+{% if 'my name'|lower == 'my name' %}
+	{{'my name'}}
+{% endif %}
+{% for i in 0..10 %}
+    {{ i }}<br>
+{% endfor %}
+{% for letters in 'a'|upper..'z'|upper %}
+    {{ letters }}<br>
+{% endfor %}
+{{ "Hello " ~ profile ~ "!" }}
+{{ profile == 'Bob' ? 'You are Bob' : 'You are not Bob' }}
+{{ 1 + 1 }}
+{% if 1  in [1, 2, 3] %}
+{{"1"}}
+{% endif %}
+{% if 1 < 2 and 3 == 3 %}
+{{ "true" }}
+{% endif %}
+{% if foo.attribute is same as(false) %}
+    the foo attribute really is false.
+{% endif %}

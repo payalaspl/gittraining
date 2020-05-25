@@ -1,0 +1,18 @@
+{% if post.status is constant('PUBLISHED', post) %}
+    the status attribute is exactly the same as Post::PUBLISHED
+{% endif %}
+{% set foo = ""  %}
+{% if foo is empty %}
+   {{ "test" }}
+{% endif %}
+{% if foo.attribute is same as(false) %}
+    the foo attribute really is the 'false' PHP value
+{% endif %}
+{% set foo1 = ""  %}
+{% if foo1 is null %}
+   {{ "test" }}
+{% endif %}
+{% set foo2 = 2  %}
+{% if foo2 is even %}
+   {{ '2 even' }}
+{% endif %}
