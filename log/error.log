@@ -1184,3 +1184,375 @@ Stack trace:
 2020/05/28 09:44:20 [error] 2226#2226: *36 FastCGI sent in stderr: "PHP message: PHP Parse error:  syntax error, unexpected ';', expecting ']' in /home/payalt/web/ptr.twigtraining.40.aum/project_twig_extension.php on line 11" while reading response header from upstream, client: 127.0.0.1, server: ptr.twigtraining.40.aum, request: "GET /operators.php HTTP/2.0", upstream: "fastcgi://unix:/run/php/php7.2-fpm.sock:", host: "ptr.twigtraining.40.aum"
 2020/05/28 09:44:20 [error] 2226#2226: *36 FastCGI sent in stderr: "PHP message: PHP Parse error:  syntax error, unexpected ';', expecting ']' in /home/payalt/web/ptr.twigtraining.40.aum/project_twig_extension.php on line 11" while reading response header from upstream, client: 127.0.0.1, server: ptr.twigtraining.40.aum, request: "GET /operators.php HTTP/2.0", upstream: "fastcgi://unix:/run/php/php7.2-fpm.sock:", host: "ptr.twigtraining.40.aum"
 2020/05/28 09:45:19 [error] 2226#2226: *36 open() "/home/payalt/web/ptr.twigtraining.40.aum/favicon.ico" failed (2: No such file or directory), client: 127.0.0.1, server: ptr.twigtraining.40.aum, request: "GET /favicon.ico HTTP/2.0", host: "ptr.twigtraining.40.aum", referrer: "https://ptr.twigtraining.40.aum/operators.php"
+2020/05/28 12:02:54 [error] 2226#2226: *140 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught Error: Class 'Twig\Extra\Inky\InkyExtension' not found in /home/payalt/web/ptr.twigtraining.40.aum/bootstrap.php:25
+Stack trace:
+#0 /home/payalt/web/ptr.twigtraining.40.aum/inky.php(3): require_once()
+#1 {main}
+  thrown in /home/payalt/web/ptr.twigtraining.40.aum/bootstrap.php on line 25" while reading response header from upstream, client: 127.0.0.1, server: ptr.twigtraining.40.aum, request: "GET /inky.php HTTP/2.0", upstream: "fastcgi://unix:/run/php/php7.2-fpm.sock:", host: "ptr.twigtraining.40.aum"
+2020/05/28 12:04:58 [error] 2226#2226: *140 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught Error: Class 'Twig\Extra\Inky\InkyExtension' not found in /home/payalt/web/ptr.twigtraining.40.aum/bootstrap.php:25
+Stack trace:
+#0 /home/payalt/web/ptr.twigtraining.40.aum/inky.php(3): require_once()
+#1 {main}
+  thrown in /home/payalt/web/ptr.twigtraining.40.aum/bootstrap.php on line 25" while reading response header from upstream, client: 127.0.0.1, server: ptr.twigtraining.40.aum, request: "GET /inky.php HTTP/2.0", upstream: "fastcgi://unix:/run/php/php7.2-fpm.sock:", host: "ptr.twigtraining.40.aum"
+2020/05/28 12:04:59 [error] 2226#2226: *140 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught Error: Class 'Twig\Extra\Inky\InkyExtension' not found in /home/payalt/web/ptr.twigtraining.40.aum/bootstrap.php:25
+Stack trace:
+#0 /home/payalt/web/ptr.twigtraining.40.aum/inky.php(3): require_once()
+#1 {main}
+  thrown in /home/payalt/web/ptr.twigtraining.40.aum/bootstrap.php on line 25" while reading response header from upstream, client: 127.0.0.1, server: ptr.twigtraining.40.aum, request: "GET /inky.php HTTP/2.0", upstream: "fastcgi://unix:/run/php/php7.2-fpm.sock:", host: "ptr.twigtraining.40.aum"
+2020/05/28 12:04:59 [error] 2226#2226: *140 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught Error: Class 'Twig\Extra\Inky\InkyExtension' not found in /home/payalt/web/ptr.twigtraining.40.aum/bootstrap.php:25
+Stack trace:
+#0 /home/payalt/web/ptr.twigtraining.40.aum/inky.php(3): require_once()
+#1 {main}
+  thrown in /home/payalt/web/ptr.twigtraining.40.aum/bootstrap.php on line 25" while reading response header from upstream, client: 127.0.0.1, server: ptr.twigtraining.40.aum, request: "GET /inky.php HTTP/2.0", upstream: "fastcgi://unix:/run/php/php7.2-fpm.sock:", host: "ptr.twigtraining.40.aum"
+2020/05/28 12:29:11 [error] 2226#2226: *147 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught Twig\Error\RuntimeError: Unable to load the "Twig\Extra\Markdown\MarkdownRuntime" runtime. in /home/payalt/web/ptr.twigtraining.40.aum/templates/markdown.html.twig:1
+Stack trace:
+#0 /home/payalt/web/ptr.twigtraining.40.aum/vendor/twig/twig/src/Environment.php(359) : eval()'d code(37): Twig\Environment->getRuntime('Twig\\Extra\\Mark...')
+#1 /home/payalt/web/ptr.twigtraining.40.aum/vendor/twig/twig/src/Template.php(396): __TwigTemplate_a52e64b0865c759e47486e5fe0edfdeff34a8eb512bcd8d0947ad0747deb295e->doDisplay(Array, Array)
+#2 /home/payalt/web/ptr.twigtraining.40.aum/vendor/twig/twig/src/Template.php(369): Twig\Template->displayWithErrorHandling(Array, Array)
+#3 /home/payalt/web/ptr.twigtraining.40.aum/vendor/twig/twig/src/Template.php(381): Twig\Template->display(Array)
+#4 /home/payalt/web/ptr.twigtraining.40.aum/vendor/twig/twig/src/TemplateWrapper.php(40): Twig\Template->render(Array, Array)
+#5 /home/payalt/web/ptr.twigtraining.40.aum/vendor/twig/twig/src/Environme" while reading response header from upstream, client: 127.0.0.1, server: ptr.twigtraining.40.aum, request: "GET /markdown.php HTTP/2.0", upstream: "fastcgi://unix:/run/php/php7.2-fpm.sock:", host: "ptr.twigtraining.40.aum"
+2020/05/28 12:29:14 [error] 2226#2226: *147 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught Twig\Error\RuntimeError: Unable to load the "Twig\Extra\Markdown\MarkdownRuntime" runtime. in /home/payalt/web/ptr.twigtraining.40.aum/templates/markdown.html.twig:1
+Stack trace:
+#0 /home/payalt/web/ptr.twigtraining.40.aum/vendor/twig/twig/src/Environment.php(359) : eval()'d code(37): Twig\Environment->getRuntime('Twig\\Extra\\Mark...')
+#1 /home/payalt/web/ptr.twigtraining.40.aum/vendor/twig/twig/src/Template.php(396): __TwigTemplate_a52e64b0865c759e47486e5fe0edfdeff34a8eb512bcd8d0947ad0747deb295e->doDisplay(Array, Array)
+#2 /home/payalt/web/ptr.twigtraining.40.aum/vendor/twig/twig/src/Template.php(369): Twig\Template->displayWithErrorHandling(Array, Array)
+#3 /home/payalt/web/ptr.twigtraining.40.aum/vendor/twig/twig/src/Template.php(381): Twig\Template->display(Array)
+#4 /home/payalt/web/ptr.twigtraining.40.aum/vendor/twig/twig/src/TemplateWrapper.php(40): Twig\Template->render(Array, Array)
+#5 /home/payalt/web/ptr.twigtraining.40.aum/vendor/twig/twig/src/Environme" while reading response header from upstream, client: 127.0.0.1, server: ptr.twigtraining.40.aum, request: "GET /markdown.php HTTP/2.0", upstream: "fastcgi://unix:/run/php/php7.2-fpm.sock:", host: "ptr.twigtraining.40.aum"
+2020/05/28 12:29:15 [error] 2226#2226: *147 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught Twig\Error\RuntimeError: Unable to load the "Twig\Extra\Markdown\MarkdownRuntime" runtime. in /home/payalt/web/ptr.twigtraining.40.aum/templates/markdown.html.twig:1
+Stack trace:
+#0 /home/payalt/web/ptr.twigtraining.40.aum/vendor/twig/twig/src/Environment.php(359) : eval()'d code(37): Twig\Environment->getRuntime('Twig\\Extra\\Mark...')
+#1 /home/payalt/web/ptr.twigtraining.40.aum/vendor/twig/twig/src/Template.php(396): __TwigTemplate_a52e64b0865c759e47486e5fe0edfdeff34a8eb512bcd8d0947ad0747deb295e->doDisplay(Array, Array)
+#2 /home/payalt/web/ptr.twigtraining.40.aum/vendor/twig/twig/src/Template.php(369): Twig\Template->displayWithErrorHandling(Array, Array)
+#3 /home/payalt/web/ptr.twigtraining.40.aum/vendor/twig/twig/src/Template.php(381): Twig\Template->display(Array)
+#4 /home/payalt/web/ptr.twigtraining.40.aum/vendor/twig/twig/src/TemplateWrapper.php(40): Twig\Template->render(Array, Array)
+#5 /home/payalt/web/ptr.twigtraining.40.aum/vendor/twig/twig/src/Environme" while reading response header from upstream, client: 127.0.0.1, server: ptr.twigtraining.40.aum, request: "GET /markdown.php HTTP/2.0", upstream: "fastcgi://unix:/run/php/php7.2-fpm.sock:", host: "ptr.twigtraining.40.aum"
+2020/05/28 12:30:37 [error] 2226#2226: *147 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught Twig\Error\RuntimeError: Unable to load the "Twig\Extra\Markdown\MarkdownRuntime" runtime. in /home/payalt/web/ptr.twigtraining.40.aum/templates/markdown.html.twig:1
+Stack trace:
+#0 /home/payalt/web/ptr.twigtraining.40.aum/vendor/twig/twig/src/Environment.php(359) : eval()'d code(37): Twig\Environment->getRuntime('Twig\\Extra\\Mark...')
+#1 /home/payalt/web/ptr.twigtraining.40.aum/vendor/twig/twig/src/Template.php(396): __TwigTemplate_a52e64b0865c759e47486e5fe0edfdeff34a8eb512bcd8d0947ad0747deb295e->doDisplay(Array, Array)
+#2 /home/payalt/web/ptr.twigtraining.40.aum/vendor/twig/twig/src/Template.php(369): Twig\Template->displayWithErrorHandling(Array, Array)
+#3 /home/payalt/web/ptr.twigtraining.40.aum/vendor/twig/twig/src/Template.php(381): Twig\Template->display(Array)
+#4 /home/payalt/web/ptr.twigtraining.40.aum/vendor/twig/twig/src/TemplateWrapper.php(40): Twig\Template->render(Array, Array)
+#5 /home/payalt/web/ptr.twigtraining.40.aum/vendor/twig/twig/src/Environme" while reading response header from upstream, client: 127.0.0.1, server: ptr.twigtraining.40.aum, request: "GET /markdown.php HTTP/2.0", upstream: "fastcgi://unix:/run/php/php7.2-fpm.sock:", host: "ptr.twigtraining.40.aum"
+2020/05/28 12:30:37 [error] 2226#2226: *147 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught Twig\Error\RuntimeError: Unable to load the "Twig\Extra\Markdown\MarkdownRuntime" runtime. in /home/payalt/web/ptr.twigtraining.40.aum/templates/markdown.html.twig:1
+Stack trace:
+#0 /home/payalt/web/ptr.twigtraining.40.aum/vendor/twig/twig/src/Environment.php(359) : eval()'d code(37): Twig\Environment->getRuntime('Twig\\Extra\\Mark...')
+#1 /home/payalt/web/ptr.twigtraining.40.aum/vendor/twig/twig/src/Template.php(396): __TwigTemplate_a52e64b0865c759e47486e5fe0edfdeff34a8eb512bcd8d0947ad0747deb295e->doDisplay(Array, Array)
+#2 /home/payalt/web/ptr.twigtraining.40.aum/vendor/twig/twig/src/Template.php(369): Twig\Template->displayWithErrorHandling(Array, Array)
+#3 /home/payalt/web/ptr.twigtraining.40.aum/vendor/twig/twig/src/Template.php(381): Twig\Template->display(Array)
+#4 /home/payalt/web/ptr.twigtraining.40.aum/vendor/twig/twig/src/TemplateWrapper.php(40): Twig\Template->render(Array, Array)
+#5 /home/payalt/web/ptr.twigtraining.40.aum/vendor/twig/twig/src/Environme" while reading response header from upstream, client: 127.0.0.1, server: ptr.twigtraining.40.aum, request: "GET /markdown.php HTTP/2.0", upstream: "fastcgi://unix:/run/php/php7.2-fpm.sock:", host: "ptr.twigtraining.40.aum"
+2020/05/28 12:33:12 [error] 2226#2226: *147 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught Twig\Error\RuntimeError: Unable to load the "Twig\Extra\Markdown\MarkdownRuntime" runtime. in /home/payalt/web/ptr.twigtraining.40.aum/templates/markdown.html.twig:1
+Stack trace:
+#0 /home/payalt/web/ptr.twigtraining.40.aum/vendor/twig/twig/src/Environment.php(359) : eval()'d code(37): Twig\Environment->getRuntime('Twig\\Extra\\Mark...')
+#1 /home/payalt/web/ptr.twigtraining.40.aum/vendor/twig/twig/src/Template.php(396): __TwigTemplate_a52e64b0865c759e47486e5fe0edfdeff34a8eb512bcd8d0947ad0747deb295e->doDisplay(Array, Array)
+#2 /home/payalt/web/ptr.twigtraining.40.aum/vendor/twig/twig/src/Template.php(369): Twig\Template->displayWithErrorHandling(Array, Array)
+#3 /home/payalt/web/ptr.twigtraining.40.aum/vendor/twig/twig/src/Template.php(381): Twig\Template->display(Array)
+#4 /home/payalt/web/ptr.twigtraining.40.aum/vendor/twig/twig/src/TemplateWrapper.php(40): Twig\Template->render(Array, Array)
+#5 /home/payalt/web/ptr.twigtraining.40.aum/vendor/twig/twig/src/Environme" while reading response header from upstream, client: 127.0.0.1, server: ptr.twigtraining.40.aum, request: "GET /markdown.php HTTP/2.0", upstream: "fastcgi://unix:/run/php/php7.2-fpm.sock:", host: "ptr.twigtraining.40.aum"
+2020/05/28 12:33:13 [error] 2226#2226: *147 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught Twig\Error\RuntimeError: Unable to load the "Twig\Extra\Markdown\MarkdownRuntime" runtime. in /home/payalt/web/ptr.twigtraining.40.aum/templates/markdown.html.twig:1
+Stack trace:
+#0 /home/payalt/web/ptr.twigtraining.40.aum/vendor/twig/twig/src/Environment.php(359) : eval()'d code(37): Twig\Environment->getRuntime('Twig\\Extra\\Mark...')
+#1 /home/payalt/web/ptr.twigtraining.40.aum/vendor/twig/twig/src/Template.php(396): __TwigTemplate_a52e64b0865c759e47486e5fe0edfdeff34a8eb512bcd8d0947ad0747deb295e->doDisplay(Array, Array)
+#2 /home/payalt/web/ptr.twigtraining.40.aum/vendor/twig/twig/src/Template.php(369): Twig\Template->displayWithErrorHandling(Array, Array)
+#3 /home/payalt/web/ptr.twigtraining.40.aum/vendor/twig/twig/src/Template.php(381): Twig\Template->display(Array)
+#4 /home/payalt/web/ptr.twigtraining.40.aum/vendor/twig/twig/src/TemplateWrapper.php(40): Twig\Template->render(Array, Array)
+#5 /home/payalt/web/ptr.twigtraining.40.aum/vendor/twig/twig/src/Environme" while reading response header from upstream, client: 127.0.0.1, server: ptr.twigtraining.40.aum, request: "GET /markdown.php HTTP/2.0", upstream: "fastcgi://unix:/run/php/php7.2-fpm.sock:", host: "ptr.twigtraining.40.aum"
+2020/05/28 12:34:10 [error] 2226#2226: *147 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function Twig\Extra\Markdown\MarkdownRuntime::__construct(), 0 passed in /home/payalt/web/ptr.twigtraining.40.aum/bootstrap.php on line 27 and exactly 1 expected in /home/payalt/web/ptr.twigtraining.40.aum/vendor/twig/markdown-extra/src/MarkdownRuntime.php:18
+Stack trace:
+#0 /home/payalt/web/ptr.twigtraining.40.aum/bootstrap.php(27): Twig\Extra\Markdown\MarkdownRuntime->__construct()
+#1 /home/payalt/web/ptr.twigtraining.40.aum/markdown.php(3): require_once('/home/payalt/we...')
+#2 {main}
+  thrown in /home/payalt/web/ptr.twigtraining.40.aum/vendor/twig/markdown-extra/src/MarkdownRuntime.php on line 18" while reading response header from upstream, client: 127.0.0.1, server: ptr.twigtraining.40.aum, request: "GET /markdown.php HTTP/2.0", upstream: "fastcgi://unix:/run/php/php7.2-fpm.sock:", host: "ptr.twigtraining.40.aum"
+2020/05/28 12:34:11 [error] 2226#2226: *147 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function Twig\Extra\Markdown\MarkdownRuntime::__construct(), 0 passed in /home/payalt/web/ptr.twigtraining.40.aum/bootstrap.php on line 27 and exactly 1 expected in /home/payalt/web/ptr.twigtraining.40.aum/vendor/twig/markdown-extra/src/MarkdownRuntime.php:18
+Stack trace:
+#0 /home/payalt/web/ptr.twigtraining.40.aum/bootstrap.php(27): Twig\Extra\Markdown\MarkdownRuntime->__construct()
+#1 /home/payalt/web/ptr.twigtraining.40.aum/markdown.php(3): require_once('/home/payalt/we...')
+#2 {main}
+  thrown in /home/payalt/web/ptr.twigtraining.40.aum/vendor/twig/markdown-extra/src/MarkdownRuntime.php on line 18" while reading response header from upstream, client: 127.0.0.1, server: ptr.twigtraining.40.aum, request: "GET /markdown.php HTTP/2.0", upstream: "fastcgi://unix:/run/php/php7.2-fpm.sock:", host: "ptr.twigtraining.40.aum"
+2020/05/28 12:34:11 [error] 2226#2226: *147 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function Twig\Extra\Markdown\MarkdownRuntime::__construct(), 0 passed in /home/payalt/web/ptr.twigtraining.40.aum/bootstrap.php on line 27 and exactly 1 expected in /home/payalt/web/ptr.twigtraining.40.aum/vendor/twig/markdown-extra/src/MarkdownRuntime.php:18
+Stack trace:
+#0 /home/payalt/web/ptr.twigtraining.40.aum/bootstrap.php(27): Twig\Extra\Markdown\MarkdownRuntime->__construct()
+#1 /home/payalt/web/ptr.twigtraining.40.aum/markdown.php(3): require_once('/home/payalt/we...')
+#2 {main}
+  thrown in /home/payalt/web/ptr.twigtraining.40.aum/vendor/twig/markdown-extra/src/MarkdownRuntime.php on line 18" while reading response header from upstream, client: 127.0.0.1, server: ptr.twigtraining.40.aum, request: "GET /markdown.php HTTP/2.0", upstream: "fastcgi://unix:/run/php/php7.2-fpm.sock:", host: "ptr.twigtraining.40.aum"
+2020/05/28 12:34:58 [error] 2226#2226: *147 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught Twig\Error\RuntimeError: Unable to load the "Twig\Extra\Markdown\MarkdownRuntime" runtime. in /home/payalt/web/ptr.twigtraining.40.aum/templates/markdown.html.twig:1
+Stack trace:
+#0 /home/payalt/web/ptr.twigtraining.40.aum/vendor/twig/twig/src/Environment.php(359) : eval()'d code(37): Twig\Environment->getRuntime('Twig\\Extra\\Mark...')
+#1 /home/payalt/web/ptr.twigtraining.40.aum/vendor/twig/twig/src/Template.php(396): __TwigTemplate_a52e64b0865c759e47486e5fe0edfdeff34a8eb512bcd8d0947ad0747deb295e->doDisplay(Array, Array)
+#2 /home/payalt/web/ptr.twigtraining.40.aum/vendor/twig/twig/src/Template.php(369): Twig\Template->displayWithErrorHandling(Array, Array)
+#3 /home/payalt/web/ptr.twigtraining.40.aum/vendor/twig/twig/src/Template.php(381): Twig\Template->display(Array)
+#4 /home/payalt/web/ptr.twigtraining.40.aum/vendor/twig/twig/src/TemplateWrapper.php(40): Twig\Template->render(Array, Array)
+#5 /home/payalt/web/ptr.twigtraining.40.aum/vendor/twig/twig/src/Environme" while reading response header from upstream, client: 127.0.0.1, server: ptr.twigtraining.40.aum, request: "GET /markdown.php HTTP/2.0", upstream: "fastcgi://unix:/run/php/php7.2-fpm.sock:", host: "ptr.twigtraining.40.aum"
+2020/05/28 12:37:37 [error] 2226#2226: *147 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught Twig\Error\SyntaxError: Unknown "markdown_to_html" filter. in /home/payalt/web/ptr.twigtraining.40.aum/templates/markdown.html.twig:1
+Stack trace:
+#0 /home/payalt/web/ptr.twigtraining.40.aum/vendor/twig/twig/src/ExpressionParser.php(549): Twig\ExpressionParser->getFilterNodeClass('markdown_to_htm...', 1)
+#1 /home/payalt/web/ptr.twigtraining.40.aum/vendor/twig/twig/src/ExpressionParser.php(534): Twig\ExpressionParser->parseFilterExpressionRaw(Object(Twig\Node\Expression\FunctionExpression))
+#2 /home/payalt/web/ptr.twigtraining.40.aum/vendor/twig/twig/src/ExpressionParser.php(392): Twig\ExpressionParser->parseFilterExpression(Object(Twig\Node\Expression\FunctionExpression))
+#3 /home/payalt/web/ptr.twigtraining.40.aum/vendor/twig/twig/src/ExpressionParser.php(284): Twig\ExpressionParser->parsePostfixExpression(Object(Twig\Node\Expression\FunctionExpression))
+#4 /home/payalt/web/ptr.twigtraining.40.aum/vendor/twig/twig/src/ExpressionParser.php(175): Twig\ExpressionParse" while reading response header from upstream, client: 127.0.0.1, server: ptr.twigtraining.40.aum, request: "GET /markdown.php HTTP/2.0", upstream: "fastcgi://unix:/run/php/php7.2-fpm.sock:", host: "ptr.twigtraining.40.aum"
+2020/05/28 12:38:16 [error] 2226#2226: *147 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught Twig\Error\SyntaxError: Unknown "markdown_to_html" filter. in /home/payalt/web/ptr.twigtraining.40.aum/templates/markdown.html.twig:1
+Stack trace:
+#0 /home/payalt/web/ptr.twigtraining.40.aum/vendor/twig/twig/src/ExpressionParser.php(549): Twig\ExpressionParser->getFilterNodeClass('markdown_to_htm...', 1)
+#1 /home/payalt/web/ptr.twigtraining.40.aum/vendor/twig/twig/src/ExpressionParser.php(534): Twig\ExpressionParser->parseFilterExpressionRaw(Object(Twig\Node\Expression\FunctionExpression))
+#2 /home/payalt/web/ptr.twigtraining.40.aum/vendor/twig/twig/src/ExpressionParser.php(392): Twig\ExpressionParser->parseFilterExpression(Object(Twig\Node\Expression\FunctionExpression))
+#3 /home/payalt/web/ptr.twigtraining.40.aum/vendor/twig/twig/src/ExpressionParser.php(284): Twig\ExpressionParser->parsePostfixExpression(Object(Twig\Node\Expression\FunctionExpression))
+#4 /home/payalt/web/ptr.twigtraining.40.aum/vendor/twig/twig/src/ExpressionParser.php(175): Twig\ExpressionParse" while reading response header from upstream, client: 127.0.0.1, server: ptr.twigtraining.40.aum, request: "GET /markdown.php HTTP/2.0", upstream: "fastcgi://unix:/run/php/php7.2-fpm.sock:", host: "ptr.twigtraining.40.aum"
+2020/05/28 12:40:27 [error] 2226#2226: *147 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught Twig\Error\SyntaxError: Unknown "markdown_to_html" filter. in /home/payalt/web/ptr.twigtraining.40.aum/templates/markdown.html.twig:1
+Stack trace:
+#0 /home/payalt/web/ptr.twigtraining.40.aum/vendor/twig/twig/src/ExpressionParser.php(549): Twig\ExpressionParser->getFilterNodeClass('markdown_to_htm...', 1)
+#1 /home/payalt/web/ptr.twigtraining.40.aum/vendor/twig/twig/src/ExpressionParser.php(534): Twig\ExpressionParser->parseFilterExpressionRaw(Object(Twig\Node\Expression\FunctionExpression))
+#2 /home/payalt/web/ptr.twigtraining.40.aum/vendor/twig/twig/src/ExpressionParser.php(392): Twig\ExpressionParser->parseFilterExpression(Object(Twig\Node\Expression\FunctionExpression))
+#3 /home/payalt/web/ptr.twigtraining.40.aum/vendor/twig/twig/src/ExpressionParser.php(284): Twig\ExpressionParser->parsePostfixExpression(Object(Twig\Node\Expression\FunctionExpression))
+#4 /home/payalt/web/ptr.twigtraining.40.aum/vendor/twig/twig/src/ExpressionParser.php(175): Twig\ExpressionParse" while reading response header from upstream, client: 127.0.0.1, server: ptr.twigtraining.40.aum, request: "GET /markdown.php HTTP/2.0", upstream: "fastcgi://unix:/run/php/php7.2-fpm.sock:", host: "ptr.twigtraining.40.aum"
+2020/05/28 12:41:10 [error] 2226#2226: *147 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught LogicException: You cannot use the "markdown_to_html" filter as no Markdown library is available; try running "composer require erusev/parsedown". in /home/payalt/web/ptr.twigtraining.40.aum/vendor/twig/markdown-extra/src/DefaultMarkdown.php:31
+Stack trace:
+#0 /home/payalt/web/ptr.twigtraining.40.aum/bootstrap.php(33): Twig\Extra\Markdown\DefaultMarkdown->__construct()
+#1 /home/payalt/web/ptr.twigtraining.40.aum/vendor/twig/twig/src/Environment.php(573): class@anonymous->load('Twig\\Extra\\Mark...')
+#2 /home/payalt/web/ptr.twigtraining.40.aum/vendor/twig/twig/src/Environment.php(359) : eval()'d code(37): Twig\Environment->getRuntime('Twig\\Extra\\Mark...')
+#3 /home/payalt/web/ptr.twigtraining.40.aum/vendor/twig/twig/src/Template.php(396): __TwigTemplate_a52e64b0865c759e47486e5fe0edfdeff34a8eb512bcd8d0947ad0747deb295e->doDisplay(Array, Array)
+#4 /home/payalt/web/ptr.twigtraining.40.aum/vendor/twig/twig/src/Template.php(369): Twig\Template->displayWithErrorHandling(Ar" while reading response header from upstream, client: 127.0.0.1, server: ptr.twigtraining.40.aum, request: "GET /markdown.php HTTP/2.0", upstream: "fastcgi://unix:/run/php/php7.2-fpm.sock:", host: "ptr.twigtraining.40.aum"
+2020/05/28 12:43:03 [error] 2226#2226: *147 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught Twig\Error\SyntaxError: Unknown "markdown" filter. Did you mean "markdown_to_html", "html_to_markdown"? in /home/payalt/web/ptr.twigtraining.40.aum/templates/markdown.html.twig:1
+Stack trace:
+#0 /home/payalt/web/ptr.twigtraining.40.aum/vendor/twig/twig/src/ExpressionParser.php(549): Twig\ExpressionParser->getFilterNodeClass('markdown', 1)
+#1 /home/payalt/web/ptr.twigtraining.40.aum/vendor/twig/twig/src/ExpressionParser.php(534): Twig\ExpressionParser->parseFilterExpressionRaw(Object(Twig\Node\Expression\FunctionExpression))
+#2 /home/payalt/web/ptr.twigtraining.40.aum/vendor/twig/twig/src/ExpressionParser.php(392): Twig\ExpressionParser->parseFilterExpression(Object(Twig\Node\Expression\FunctionExpression))
+#3 /home/payalt/web/ptr.twigtraining.40.aum/vendor/twig/twig/src/ExpressionParser.php(284): Twig\ExpressionParser->parsePostfixExpression(Object(Twig\Node\Expression\FunctionExpression))
+#4 /home/payalt/web/ptr.twigtraining.40.aum/vendor/twig/twig/src/ExpressionPa" while reading response header from upstream, client: 127.0.0.1, server: ptr.twigtraining.40.aum, request: "GET /markdown.php HTTP/2.0", upstream: "fastcgi://unix:/run/php/php7.2-fpm.sock:", host: "ptr.twigtraining.40.aum"
+2020/05/28 12:43:58 [error] 2226#2226: *147 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught Twig\Error\SyntaxError: Unknown "markdown" filter. Did you mean "markdown_to_html", "html_to_markdown"? in /home/payalt/web/ptr.twigtraining.40.aum/templates/markdown.html.twig:1
+Stack trace:
+#0 /home/payalt/web/ptr.twigtraining.40.aum/vendor/twig/twig/src/ExpressionParser.php(549): Twig\ExpressionParser->getFilterNodeClass('markdown', 1)
+#1 /home/payalt/web/ptr.twigtraining.40.aum/vendor/twig/twig/src/ExpressionParser.php(534): Twig\ExpressionParser->parseFilterExpressionRaw(Object(Twig\Node\Expression\FunctionExpression))
+#2 /home/payalt/web/ptr.twigtraining.40.aum/vendor/twig/twig/src/ExpressionParser.php(392): Twig\ExpressionParser->parseFilterExpression(Object(Twig\Node\Expression\FunctionExpression))
+#3 /home/payalt/web/ptr.twigtraining.40.aum/vendor/twig/twig/src/ExpressionParser.php(284): Twig\ExpressionParser->parsePostfixExpression(Object(Twig\Node\Expression\FunctionExpression))
+#4 /home/payalt/web/ptr.twigtraining.40.aum/vendor/twig/twig/src/ExpressionPa" while reading response header from upstream, client: 127.0.0.1, server: ptr.twigtraining.40.aum, request: "GET /markdown.php HTTP/2.0", upstream: "fastcgi://unix:/run/php/php7.2-fpm.sock:", host: "ptr.twigtraining.40.aum"
+2020/05/28 12:46:54 [error] 2226#2226: *147 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught Twig\Error\RuntimeError: Unable to load the "Twig\Extra\Markdown\MarkdownRuntime" runtime. in /home/payalt/web/ptr.twigtraining.40.aum/templates/markdown.html.twig:1
+Stack trace:
+#0 /home/payalt/web/ptr.twigtraining.40.aum/vendor/twig/twig/src/Environment.php(359) : eval()'d code(37): Twig\Environment->getRuntime('Twig\\Extra\\Mark...')
+#1 /home/payalt/web/ptr.twigtraining.40.aum/vendor/twig/twig/src/Template.php(396): __TwigTemplate_a52e64b0865c759e47486e5fe0edfdeff34a8eb512bcd8d0947ad0747deb295e->doDisplay(Array, Array)
+#2 /home/payalt/web/ptr.twigtraining.40.aum/vendor/twig/twig/src/Template.php(369): Twig\Template->displayWithErrorHandling(Array, Array)
+#3 /home/payalt/web/ptr.twigtraining.40.aum/vendor/twig/twig/src/Template.php(381): Twig\Template->display(Array)
+#4 /home/payalt/web/ptr.twigtraining.40.aum/vendor/twig/twig/src/TemplateWrapper.php(40): Twig\Template->render(Array, Array)
+#5 /home/payalt/web/ptr.twigtraining.40.aum/vendor/twig/twig/src/Environme" while reading response header from upstream, client: 127.0.0.1, server: ptr.twigtraining.40.aum, request: "GET /markdown.php HTTP/2.0", upstream: "fastcgi://unix:/run/php/php7.2-fpm.sock:", host: "ptr.twigtraining.40.aum"
+2020/05/28 12:46:54 [error] 2226#2226: *147 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught Twig\Error\RuntimeError: Unable to load the "Twig\Extra\Markdown\MarkdownRuntime" runtime. in /home/payalt/web/ptr.twigtraining.40.aum/templates/markdown.html.twig:1
+Stack trace:
+#0 /home/payalt/web/ptr.twigtraining.40.aum/vendor/twig/twig/src/Environment.php(359) : eval()'d code(37): Twig\Environment->getRuntime('Twig\\Extra\\Mark...')
+#1 /home/payalt/web/ptr.twigtraining.40.aum/vendor/twig/twig/src/Template.php(396): __TwigTemplate_a52e64b0865c759e47486e5fe0edfdeff34a8eb512bcd8d0947ad0747deb295e->doDisplay(Array, Array)
+#2 /home/payalt/web/ptr.twigtraining.40.aum/vendor/twig/twig/src/Template.php(369): Twig\Template->displayWithErrorHandling(Array, Array)
+#3 /home/payalt/web/ptr.twigtraining.40.aum/vendor/twig/twig/src/Template.php(381): Twig\Template->display(Array)
+#4 /home/payalt/web/ptr.twigtraining.40.aum/vendor/twig/twig/src/TemplateWrapper.php(40): Twig\Template->render(Array, Array)
+#5 /home/payalt/web/ptr.twigtraining.40.aum/vendor/twig/twig/src/Environme" while reading response header from upstream, client: 127.0.0.1, server: ptr.twigtraining.40.aum, request: "GET /markdown.php HTTP/2.0", upstream: "fastcgi://unix:/run/php/php7.2-fpm.sock:", host: "ptr.twigtraining.40.aum"
+2020/05/28 12:51:28 [error] 2226#2226: *168 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught LogicException: You cannot use the "markdown_to_html" filter as no Markdown library is available; try running "composer require erusev/parsedown". in /home/payalt/web/ptr.twigtraining.40.aum/vendor/twig/markdown-extra/src/DefaultMarkdown.php:31
+Stack trace:
+#0 /home/payalt/web/ptr.twigtraining.40.aum/bootstrap.php(32): Twig\Extra\Markdown\DefaultMarkdown->__construct()
+#1 /home/payalt/web/ptr.twigtraining.40.aum/vendor/twig/twig/src/Environment.php(573): class@anonymous->load('Twig\\Extra\\Mark...')
+#2 /home/payalt/web/ptr.twigtraining.40.aum/vendor/twig/twig/src/Environment.php(359) : eval()'d code(37): Twig\Environment->getRuntime('Twig\\Extra\\Mark...')
+#3 /home/payalt/web/ptr.twigtraining.40.aum/vendor/twig/twig/src/Template.php(396): __TwigTemplate_a52e64b0865c759e47486e5fe0edfdeff34a8eb512bcd8d0947ad0747deb295e->doDisplay(Array, Array)
+#4 /home/payalt/web/ptr.twigtraining.40.aum/vendor/twig/twig/src/Template.php(369): Twig\Template->displayWithErrorHandling(Ar" while reading response header from upstream, client: 127.0.0.1, server: ptr.twigtraining.40.aum, request: "GET /markdown.php HTTP/2.0", upstream: "fastcgi://unix:/run/php/php7.2-fpm.sock:", host: "ptr.twigtraining.40.aum"
+2020/05/28 12:53:07 [error] 2226#2226: *168 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught Twig\Error\RuntimeError: Unable to load the "Twig\Extra\Markdown\MarkdownRuntime" runtime. in /home/payalt/web/ptr.twigtraining.40.aum/templates/markdown.html.twig:1
+Stack trace:
+#0 /home/payalt/web/ptr.twigtraining.40.aum/vendor/twig/twig/src/Environment.php(359) : eval()'d code(37): Twig\Environment->getRuntime('Twig\\Extra\\Mark...')
+#1 /home/payalt/web/ptr.twigtraining.40.aum/vendor/twig/twig/src/Template.php(396): __TwigTemplate_a52e64b0865c759e47486e5fe0edfdeff34a8eb512bcd8d0947ad0747deb295e->doDisplay(Array, Array)
+#2 /home/payalt/web/ptr.twigtraining.40.aum/vendor/twig/twig/src/Template.php(369): Twig\Template->displayWithErrorHandling(Array, Array)
+#3 /home/payalt/web/ptr.twigtraining.40.aum/vendor/twig/twig/src/Template.php(381): Twig\Template->display(Array)
+#4 /home/payalt/web/ptr.twigtraining.40.aum/vendor/twig/twig/src/TemplateWrapper.php(40): Twig\Template->render(Array, Array)
+#5 /home/payalt/web/ptr.twigtraining.40.aum/vendor/twig/twig/src/Environme" while reading response header from upstream, client: 127.0.0.1, server: ptr.twigtraining.40.aum, request: "GET /markdown.php HTTP/2.0", upstream: "fastcgi://unix:/run/php/php7.2-fpm.sock:", host: "ptr.twigtraining.40.aum"
+2020/05/28 14:40:52 [error] 2226#2226: *1000 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught Twig\Error\RuntimeError: Unable to load the "Twig\Extra\Markdown\MarkdownRuntime" runtime. in /home/payalt/web/ptr.twigtraining.40.aum/templates/markdown.html.twig:1
+Stack trace:
+#0 /home/payalt/web/ptr.twigtraining.40.aum/vendor/twig/twig/src/Environment.php(359) : eval()'d code(37): Twig\Environment->getRuntime('Twig\\Extra\\Mark...')
+#1 /home/payalt/web/ptr.twigtraining.40.aum/vendor/twig/twig/src/Template.php(396): __TwigTemplate_a52e64b0865c759e47486e5fe0edfdeff34a8eb512bcd8d0947ad0747deb295e->doDisplay(Array, Array)
+#2 /home/payalt/web/ptr.twigtraining.40.aum/vendor/twig/twig/src/Template.php(369): Twig\Template->displayWithErrorHandling(Array, Array)
+#3 /home/payalt/web/ptr.twigtraining.40.aum/vendor/twig/twig/src/Template.php(381): Twig\Template->display(Array)
+#4 /home/payalt/web/ptr.twigtraining.40.aum/vendor/twig/twig/src/TemplateWrapper.php(40): Twig\Template->render(Array, Array)
+#5 /home/payalt/web/ptr.twigtraining.40.aum/vendor/twig/twig/src/Environme" while reading response header from upstream, client: 127.0.0.1, server: ptr.twigtraining.40.aum, request: "GET /markdown.php HTTP/2.0", upstream: "fastcgi://unix:/run/php/php7.2-fpm.sock:", host: "ptr.twigtraining.40.aum"
+2020/05/28 14:42:46 [error] 2226#2226: *1003 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught Twig\Error\RuntimeError: Unable to load the "Twig\Extra\Markdown\MarkdownRuntime" runtime. in /home/payalt/web/ptr.twigtraining.40.aum/templates/markdown.html.twig:1
+Stack trace:
+#0 /home/payalt/web/ptr.twigtraining.40.aum/vendor/twig/twig/src/Environment.php(359) : eval()'d code(37): Twig\Environment->getRuntime('Twig\\Extra\\Mark...')
+#1 /home/payalt/web/ptr.twigtraining.40.aum/vendor/twig/twig/src/Template.php(396): __TwigTemplate_a52e64b0865c759e47486e5fe0edfdeff34a8eb512bcd8d0947ad0747deb295e->doDisplay(Array, Array)
+#2 /home/payalt/web/ptr.twigtraining.40.aum/vendor/twig/twig/src/Template.php(369): Twig\Template->displayWithErrorHandling(Array, Array)
+#3 /home/payalt/web/ptr.twigtraining.40.aum/vendor/twig/twig/src/Template.php(381): Twig\Template->display(Array)
+#4 /home/payalt/web/ptr.twigtraining.40.aum/vendor/twig/twig/src/TemplateWrapper.php(40): Twig\Template->render(Array, Array)
+#5 /home/payalt/web/ptr.twigtraining.40.aum/vendor/twig/twig/src/Environme" while reading response header from upstream, client: 127.0.0.1, server: ptr.twigtraining.40.aum, request: "GET /markdown.php HTTP/2.0", upstream: "fastcgi://unix:/run/php/php7.2-fpm.sock:", host: "ptr.twigtraining.40.aum"
+2020/05/28 14:43:24 [error] 2226#2226: *1003 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function Twig\Extra\Markdown\MarkdownRuntime::__construct(), 0 passed in /home/payalt/web/ptr.twigtraining.40.aum/bootstrap.php on line 26 and exactly 1 expected in /home/payalt/web/ptr.twigtraining.40.aum/vendor/twig/markdown-extra/src/MarkdownRuntime.php:18
+Stack trace:
+#0 /home/payalt/web/ptr.twigtraining.40.aum/bootstrap.php(26): Twig\Extra\Markdown\MarkdownRuntime->__construct()
+#1 /home/payalt/web/ptr.twigtraining.40.aum/markdown.php(3): require_once('/home/payalt/we...')
+#2 {main}
+  thrown in /home/payalt/web/ptr.twigtraining.40.aum/vendor/twig/markdown-extra/src/MarkdownRuntime.php on line 18" while reading response header from upstream, client: 127.0.0.1, server: ptr.twigtraining.40.aum, request: "GET /markdown.php HTTP/2.0", upstream: "fastcgi://unix:/run/php/php7.2-fpm.sock:", host: "ptr.twigtraining.40.aum"
+2020/05/28 14:44:09 [error] 2226#2226: *1003 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function Twig\Extra\Markdown\MarkdownRuntime::__construct(), 0 passed in /home/payalt/web/ptr.twigtraining.40.aum/bootstrap.php on line 26 and exactly 1 expected in /home/payalt/web/ptr.twigtraining.40.aum/vendor/twig/markdown-extra/src/MarkdownRuntime.php:18
+Stack trace:
+#0 /home/payalt/web/ptr.twigtraining.40.aum/bootstrap.php(26): Twig\Extra\Markdown\MarkdownRuntime->__construct()
+#1 /home/payalt/web/ptr.twigtraining.40.aum/markdown.php(3): require_once('/home/payalt/we...')
+#2 {main}
+  thrown in /home/payalt/web/ptr.twigtraining.40.aum/vendor/twig/markdown-extra/src/MarkdownRuntime.php on line 18" while reading response header from upstream, client: 127.0.0.1, server: ptr.twigtraining.40.aum, request: "GET /markdown.php HTTP/2.0", upstream: "fastcgi://unix:/run/php/php7.2-fpm.sock:", host: "ptr.twigtraining.40.aum"
+2020/05/28 14:45:14 [error] 2226#2226: *1003 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught Twig\Error\LoaderError: Unable to find template "title.markfown.twig" (looked into: /home/payalt/web/ptr.twigtraining.40.aum/templates). in /home/payalt/web/ptr.twigtraining.40.aum/vendor/twig/twig/src/Loader/FilesystemLoader.php:227
+Stack trace:
+#0 /home/payalt/web/ptr.twigtraining.40.aum/vendor/twig/twig/src/Loader/FilesystemLoader.php(131): Twig\Loader\FilesystemLoader->findTemplate('title.markfown....')
+#1 /home/payalt/web/ptr.twigtraining.40.aum/vendor/twig/twig/src/Environment.php(262): Twig\Loader\FilesystemLoader->getCacheKey('title.markfown....')
+#2 /home/payalt/web/ptr.twigtraining.40.aum/vendor/twig/twig/src/Environment.php(310): Twig\Environment->getTemplateClass('title.markfown....')
+#3 /home/payalt/web/ptr.twigtraining.40.aum/vendor/twig/twig/src/Environment.php(278): Twig\Environment->load('title.markfown....')
+#4 /home/payalt/web/ptr.twigtraining.40.aum/markdown.php(10): Twig\Environment->render('title.markfown....', Array)
+#5 {main}
+  thrown in /hom" while reading response header from upstream, client: 127.0.0.1, server: ptr.twigtraining.40.aum, request: "GET /markdown.php HTTP/2.0", upstream: "fastcgi://unix:/run/php/php7.2-fpm.sock:", host: "ptr.twigtraining.40.aum"
+2020/05/28 14:46:35 [error] 2226#2226: *1003 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught Error: Class 'DefaultMarkdown' not found in /home/payalt/web/ptr.twigtraining.40.aum/bootstrap.php:31
+Stack trace:
+#0 /home/payalt/web/ptr.twigtraining.40.aum/vendor/twig/twig/src/Environment.php(573): class@anonymous->load('Twig\\Extra\\Mark...')
+#1 /home/payalt/web/ptr.twigtraining.40.aum/vendor/twig/twig/src/Environment.php(359) : eval()'d code(42): Twig\Environment->getRuntime('Twig\\Extra\\Mark...')
+#2 /home/payalt/web/ptr.twigtraining.40.aum/vendor/twig/twig/src/Template.php(396): __TwigTemplate_f7fde3a82bd9e8a0608e17814ac8fe64d399968d27446398f4a924ec3d6ae92f->doDisplay(Array, Array)
+#3 /home/payalt/web/ptr.twigtraining.40.aum/vendor/twig/twig/src/Template.php(369): Twig\Template->displayWithErrorHandling(Array, Array)
+#4 /home/payalt/web/ptr.twigtraining.40.aum/vendor/twig/twig/src/Template.php(381): Twig\Template->display(Array)
+#5 /home/payalt/web/ptr.twigtraining.40.aum/vendor/twig/twig/src/TemplateWrapper.php(40): Twig\Template->render(Array, Array)
+#6 /h" while reading response header from upstream, client: 127.0.0.1, server: ptr.twigtraining.40.aum, request: "GET /markdown.php HTTP/2.0", upstream: "fastcgi://unix:/run/php/php7.2-fpm.sock:", host: "ptr.twigtraining.40.aum"
+2020/05/28 14:47:21 [error] 2226#2226: *1003 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught LogicException: You cannot use the "markdown_to_html" filter as no Markdown library is available; try running "composer require erusev/parsedown". in /home/payalt/web/ptr.twigtraining.40.aum/vendor/twig/markdown-extra/src/DefaultMarkdown.php:31
+Stack trace:
+#0 /home/payalt/web/ptr.twigtraining.40.aum/bootstrap.php(32): Twig\Extra\Markdown\DefaultMarkdown->__construct()
+#1 /home/payalt/web/ptr.twigtraining.40.aum/vendor/twig/twig/src/Environment.php(573): class@anonymous->load('Twig\\Extra\\Mark...')
+#2 /home/payalt/web/ptr.twigtraining.40.aum/vendor/twig/twig/src/Environment.php(359) : eval()'d code(42): Twig\Environment->getRuntime('Twig\\Extra\\Mark...')
+#3 /home/payalt/web/ptr.twigtraining.40.aum/vendor/twig/twig/src/Template.php(396): __TwigTemplate_f7fde3a82bd9e8a0608e17814ac8fe64d399968d27446398f4a924ec3d6ae92f->doDisplay(Array, Array)
+#4 /home/payalt/web/ptr.twigtraining.40.aum/vendor/twig/twig/src/Template.php(369): Twig\Template->displayWithErrorHandling(Ar" while reading response header from upstream, client: 127.0.0.1, server: ptr.twigtraining.40.aum, request: "GET /markdown.php HTTP/2.0", upstream: "fastcgi://unix:/run/php/php7.2-fpm.sock:", host: "ptr.twigtraining.40.aum"
+2020/05/28 14:48:59 [error] 2226#2226: *1003 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught LogicException: You cannot use the "markdown_to_html" filter as no Markdown library is available; try running "composer require erusev/parsedown". in /home/payalt/web/ptr.twigtraining.40.aum/vendor/twig/markdown-extra/src/DefaultMarkdown.php:31
+Stack trace:
+#0 /home/payalt/web/ptr.twigtraining.40.aum/bootstrap.php(32): Twig\Extra\Markdown\DefaultMarkdown->__construct()
+#1 /home/payalt/web/ptr.twigtraining.40.aum/vendor/twig/twig/src/Environment.php(573): class@anonymous->load('Twig\\Extra\\Mark...')
+#2 /home/payalt/web/ptr.twigtraining.40.aum/vendor/twig/twig/src/Environment.php(359) : eval()'d code(42): Twig\Environment->getRuntime('Twig\\Extra\\Mark...')
+#3 /home/payalt/web/ptr.twigtraining.40.aum/vendor/twig/twig/src/Template.php(396): __TwigTemplate_f7fde3a82bd9e8a0608e17814ac8fe64d399968d27446398f4a924ec3d6ae92f->doDisplay(Array, Array)
+#4 /home/payalt/web/ptr.twigtraining.40.aum/vendor/twig/twig/src/Template.php(369): Twig\Template->displayWithErrorHandling(Ar" while reading response header from upstream, client: 127.0.0.1, server: ptr.twigtraining.40.aum, request: "GET /markdown.php HTTP/2.0", upstream: "fastcgi://unix:/run/php/php7.2-fpm.sock:", host: "ptr.twigtraining.40.aum"
+2020/05/28 14:49:00 [error] 2226#2226: *1003 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught LogicException: You cannot use the "markdown_to_html" filter as no Markdown library is available; try running "composer require erusev/parsedown". in /home/payalt/web/ptr.twigtraining.40.aum/vendor/twig/markdown-extra/src/DefaultMarkdown.php:31
+Stack trace:
+#0 /home/payalt/web/ptr.twigtraining.40.aum/bootstrap.php(32): Twig\Extra\Markdown\DefaultMarkdown->__construct()
+#1 /home/payalt/web/ptr.twigtraining.40.aum/vendor/twig/twig/src/Environment.php(573): class@anonymous->load('Twig\\Extra\\Mark...')
+#2 /home/payalt/web/ptr.twigtraining.40.aum/vendor/twig/twig/src/Environment.php(359) : eval()'d code(42): Twig\Environment->getRuntime('Twig\\Extra\\Mark...')
+#3 /home/payalt/web/ptr.twigtraining.40.aum/vendor/twig/twig/src/Template.php(396): __TwigTemplate_f7fde3a82bd9e8a0608e17814ac8fe64d399968d27446398f4a924ec3d6ae92f->doDisplay(Array, Array)
+#4 /home/payalt/web/ptr.twigtraining.40.aum/vendor/twig/twig/src/Template.php(369): Twig\Template->displayWithErrorHandling(Ar" while reading response header from upstream, client: 127.0.0.1, server: ptr.twigtraining.40.aum, request: "GET /markdown.php HTTP/2.0", upstream: "fastcgi://unix:/run/php/php7.2-fpm.sock:", host: "ptr.twigtraining.40.aum"
+2020/05/28 15:46:33 [error] 2226#2226: *1048 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught Error: Call to undefined function ereg_replace() in /home/payalt/web/ptr.twigtraining.40.aum/reg.php:61
+Stack trace:
+#0 {main}
+  thrown in /home/payalt/web/ptr.twigtraining.40.aum/reg.php on line 61" while reading response header from upstream, client: 127.0.0.1, server: ptr.twigtraining.40.aum, request: "GET /reg.php HTTP/2.0", upstream: "fastcgi://unix:/run/php/php7.2-fpm.sock:", host: "ptr.twigtraining.40.aum"
+2020/05/28 15:46:34 [error] 2226#2226: *1048 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught Error: Call to undefined function ereg_replace() in /home/payalt/web/ptr.twigtraining.40.aum/reg.php:61
+Stack trace:
+#0 {main}
+  thrown in /home/payalt/web/ptr.twigtraining.40.aum/reg.php on line 61" while reading response header from upstream, client: 127.0.0.1, server: ptr.twigtraining.40.aum, request: "GET /reg.php HTTP/2.0", upstream: "fastcgi://unix:/run/php/php7.2-fpm.sock:", host: "ptr.twigtraining.40.aum"
+2020/05/28 15:46:34 [error] 2226#2226: *1048 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught Error: Call to undefined function ereg_replace() in /home/payalt/web/ptr.twigtraining.40.aum/reg.php:61
+Stack trace:
+#0 {main}
+  thrown in /home/payalt/web/ptr.twigtraining.40.aum/reg.php on line 61" while reading response header from upstream, client: 127.0.0.1, server: ptr.twigtraining.40.aum, request: "GET /reg.php HTTP/2.0", upstream: "fastcgi://unix:/run/php/php7.2-fpm.sock:", host: "ptr.twigtraining.40.aum"
+2020/05/28 15:46:35 [error] 2226#2226: *1048 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught Error: Call to undefined function ereg_replace() in /home/payalt/web/ptr.twigtraining.40.aum/reg.php:61
+Stack trace:
+#0 {main}
+  thrown in /home/payalt/web/ptr.twigtraining.40.aum/reg.php on line 61" while reading response header from upstream, client: 127.0.0.1, server: ptr.twigtraining.40.aum, request: "GET /reg.php HTTP/2.0", upstream: "fastcgi://unix:/run/php/php7.2-fpm.sock:", host: "ptr.twigtraining.40.aum"
+2020/05/28 15:46:35 [error] 2226#2226: *1048 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught Error: Call to undefined function ereg_replace() in /home/payalt/web/ptr.twigtraining.40.aum/reg.php:61
+Stack trace:
+#0 {main}
+  thrown in /home/payalt/web/ptr.twigtraining.40.aum/reg.php on line 61" while reading response header from upstream, client: 127.0.0.1, server: ptr.twigtraining.40.aum, request: "GET /reg.php HTTP/2.0", upstream: "fastcgi://unix:/run/php/php7.2-fpm.sock:", host: "ptr.twigtraining.40.aum"
+2020/05/28 15:46:35 [error] 2226#2226: *1048 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught Error: Call to undefined function ereg_replace() in /home/payalt/web/ptr.twigtraining.40.aum/reg.php:61
+Stack trace:
+#0 {main}
+  thrown in /home/payalt/web/ptr.twigtraining.40.aum/reg.php on line 61" while reading response header from upstream, client: 127.0.0.1, server: ptr.twigtraining.40.aum, request: "GET /reg.php HTTP/2.0", upstream: "fastcgi://unix:/run/php/php7.2-fpm.sock:", host: "ptr.twigtraining.40.aum"
+2020/05/28 15:46:35 [error] 2226#2226: *1048 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught Error: Call to undefined function ereg_replace() in /home/payalt/web/ptr.twigtraining.40.aum/reg.php:61
+Stack trace:
+#0 {main}
+  thrown in /home/payalt/web/ptr.twigtraining.40.aum/reg.php on line 61" while reading response header from upstream, client: 127.0.0.1, server: ptr.twigtraining.40.aum, request: "GET /reg.php HTTP/2.0", upstream: "fastcgi://unix:/run/php/php7.2-fpm.sock:", host: "ptr.twigtraining.40.aum"
+2020/05/28 15:46:36 [error] 2226#2226: *1048 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught Error: Call to undefined function ereg_replace() in /home/payalt/web/ptr.twigtraining.40.aum/reg.php:61
+Stack trace:
+#0 {main}
+  thrown in /home/payalt/web/ptr.twigtraining.40.aum/reg.php on line 61" while reading response header from upstream, client: 127.0.0.1, server: ptr.twigtraining.40.aum, request: "GET /reg.php HTTP/2.0", upstream: "fastcgi://unix:/run/php/php7.2-fpm.sock:", host: "ptr.twigtraining.40.aum"
+2020/05/28 15:46:48 [error] 2226#2226: *1048 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught Error: Call to undefined function ereg_replace() in /home/payalt/web/ptr.twigtraining.40.aum/reg.php:61
+Stack trace:
+#0 {main}
+  thrown in /home/payalt/web/ptr.twigtraining.40.aum/reg.php on line 61" while reading response header from upstream, client: 127.0.0.1, server: ptr.twigtraining.40.aum, request: "GET /reg.php HTTP/2.0", upstream: "fastcgi://unix:/run/php/php7.2-fpm.sock:", host: "ptr.twigtraining.40.aum"
+2020/05/28 15:46:48 [error] 2226#2226: *1048 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught Error: Call to undefined function ereg_replace() in /home/payalt/web/ptr.twigtraining.40.aum/reg.php:61
+Stack trace:
+#0 {main}
+  thrown in /home/payalt/web/ptr.twigtraining.40.aum/reg.php on line 61" while reading response header from upstream, client: 127.0.0.1, server: ptr.twigtraining.40.aum, request: "GET /reg.php HTTP/2.0", upstream: "fastcgi://unix:/run/php/php7.2-fpm.sock:", host: "ptr.twigtraining.40.aum"
+2020/05/28 15:46:48 [error] 2226#2226: *1048 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught Error: Call to undefined function ereg_replace() in /home/payalt/web/ptr.twigtraining.40.aum/reg.php:61
+Stack trace:
+#0 {main}
+  thrown in /home/payalt/web/ptr.twigtraining.40.aum/reg.php on line 61" while reading response header from upstream, client: 127.0.0.1, server: ptr.twigtraining.40.aum, request: "GET /reg.php HTTP/2.0", upstream: "fastcgi://unix:/run/php/php7.2-fpm.sock:", host: "ptr.twigtraining.40.aum"
+2020/05/28 15:47:08 [error] 2226#2226: *1048 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught Error: Call to undefined function ereg_replace() in /home/payalt/web/ptr.twigtraining.40.aum/reg.php:61
+Stack trace:
+#0 {main}
+  thrown in /home/payalt/web/ptr.twigtraining.40.aum/reg.php on line 61" while reading response header from upstream, client: 127.0.0.1, server: ptr.twigtraining.40.aum, request: "GET /reg.php HTTP/2.0", upstream: "fastcgi://unix:/run/php/php7.2-fpm.sock:", host: "ptr.twigtraining.40.aum"
+2020/05/28 15:47:08 [error] 2226#2226: *1048 open() "/home/payalt/web/ptr.twigtraining.40.aum/favicon.ico" failed (2: No such file or directory), client: 127.0.0.1, server: ptr.twigtraining.40.aum, request: "GET /favicon.ico HTTP/2.0", host: "ptr.twigtraining.40.aum", referrer: "https://ptr.twigtraining.40.aum/reg.php"
+2020/05/28 15:52:12 [error] 2226#2226: *1062 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught Error: Call to undefined function ereg_replace() in /home/payalt/web/ptr.twigtraining.40.aum/reg.php:61
+Stack trace:
+#0 {main}
+  thrown in /home/payalt/web/ptr.twigtraining.40.aum/reg.php on line 61" while reading response header from upstream, client: 127.0.0.1, server: ptr.twigtraining.40.aum, request: "GET /reg.php HTTP/2.0", upstream: "fastcgi://unix:/run/php/php7.2-fpm.sock:", host: "ptr.twigtraining.40.aum"
+2020/05/28 15:53:01 [error] 2226#2226: *1062 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught Error: Call to undefined function ereg_replace() in /home/payalt/web/ptr.twigtraining.40.aum/reg.php:61
+Stack trace:
+#0 {main}
+  thrown in /home/payalt/web/ptr.twigtraining.40.aum/reg.php on line 61" while reading response header from upstream, client: 127.0.0.1, server: ptr.twigtraining.40.aum, request: "GET /reg.php HTTP/2.0", upstream: "fastcgi://unix:/run/php/php7.2-fpm.sock:", host: "ptr.twigtraining.40.aum"
+2020/05/28 15:53:33 [error] 2226#2226: *1062 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught Error: Call to undefined function ereg_replace() in /home/payalt/web/ptr.twigtraining.40.aum/reg.php:67
+Stack trace:
+#0 {main}
+  thrown in /home/payalt/web/ptr.twigtraining.40.aum/reg.php on line 67" while reading response header from upstream, client: 127.0.0.1, server: ptr.twigtraining.40.aum, request: "GET /reg.php HTTP/2.0", upstream: "fastcgi://unix:/run/php/php7.2-fpm.sock:", host: "ptr.twigtraining.40.aum"
+2020/05/28 15:53:34 [error] 2226#2226: *1062 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught Error: Call to undefined function ereg_replace() in /home/payalt/web/ptr.twigtraining.40.aum/reg.php:67
+Stack trace:
+#0 {main}
+  thrown in /home/payalt/web/ptr.twigtraining.40.aum/reg.php on line 67" while reading response header from upstream, client: 127.0.0.1, server: ptr.twigtraining.40.aum, request: "GET /reg.php HTTP/2.0", upstream: "fastcgi://unix:/run/php/php7.2-fpm.sock:", host: "ptr.twigtraining.40.aum"
+2020/05/28 15:53:34 [error] 2226#2226: *1062 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught Error: Call to undefined function ereg_replace() in /home/payalt/web/ptr.twigtraining.40.aum/reg.php:67
+Stack trace:
+#0 {main}
+  thrown in /home/payalt/web/ptr.twigtraining.40.aum/reg.php on line 67" while reading response header from upstream, client: 127.0.0.1, server: ptr.twigtraining.40.aum, request: "GET /reg.php HTTP/2.0", upstream: "fastcgi://unix:/run/php/php7.2-fpm.sock:", host: "ptr.twigtraining.40.aum"
+2020/05/28 15:53:34 [error] 2226#2226: *1062 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught Error: Call to undefined function ereg_replace() in /home/payalt/web/ptr.twigtraining.40.aum/reg.php:67
+Stack trace:
+#0 {main}
+  thrown in /home/payalt/web/ptr.twigtraining.40.aum/reg.php on line 67" while reading response header from upstream, client: 127.0.0.1, server: ptr.twigtraining.40.aum, request: "GET /reg.php HTTP/2.0", upstream: "fastcgi://unix:/run/php/php7.2-fpm.sock:", host: "ptr.twigtraining.40.aum"
+2020/05/28 15:53:34 [error] 2226#2226: *1062 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught Error: Call to undefined function ereg_replace() in /home/payalt/web/ptr.twigtraining.40.aum/reg.php:67
+Stack trace:
+#0 {main}
+  thrown in /home/payalt/web/ptr.twigtraining.40.aum/reg.php on line 67" while reading response header from upstream, client: 127.0.0.1, server: ptr.twigtraining.40.aum, request: "GET /reg.php HTTP/2.0", upstream: "fastcgi://unix:/run/php/php7.2-fpm.sock:", host: "ptr.twigtraining.40.aum"
+2020/05/28 15:54:53 [error] 2226#2226: *1062 FastCGI sent in stderr: "PHP message: PHP Parse error:  syntax error, unexpected '$regex1' (T_VARIABLE), expecting ',' or ';' in /home/payalt/web/ptr.twigtraining.40.aum/reg.php on line 59" while reading response header from upstream, client: 127.0.0.1, server: ptr.twigtraining.40.aum, request: "GET /reg.php HTTP/2.0", upstream: "fastcgi://unix:/run/php/php7.2-fpm.sock:", host: "ptr.twigtraining.40.aum"
+2020/05/28 16:10:53 [error] 2226#2226: *1080 FastCGI sent in stderr: "PHP message: PHP Warning:  preg_grep(): Compilation failed: range out of order in character class at offset 4 in /home/payalt/web/ptr.twigtraining.40.aum/reg.php on line 66" while reading response header from upstream, client: 127.0.0.1, server: ptr.twigtraining.40.aum, request: "GET /reg.php HTTP/2.0", upstream: "fastcgi://unix:/run/php/php7.2-fpm.sock:", host: "ptr.twigtraining.40.aum"
+2020/05/28 16:10:54 [error] 2226#2226: *1080 FastCGI sent in stderr: "PHP message: PHP Warning:  preg_grep(): Compilation failed: range out of order in character class at offset 4 in /home/payalt/web/ptr.twigtraining.40.aum/reg.php on line 66" while reading response header from upstream, client: 127.0.0.1, server: ptr.twigtraining.40.aum, request: "GET /reg.php HTTP/2.0", upstream: "fastcgi://unix:/run/php/php7.2-fpm.sock:", host: "ptr.twigtraining.40.aum"
+2020/05/28 16:11:12 [error] 2226#2226: *1080 FastCGI sent in stderr: "PHP message: PHP Warning:  preg_grep(): Compilation failed: range out of order in character class at offset 4 in /home/payalt/web/ptr.twigtraining.40.aum/reg.php on line 66" while reading response header from upstream, client: 127.0.0.1, server: ptr.twigtraining.40.aum, request: "GET /reg.php HTTP/2.0", upstream: "fastcgi://unix:/run/php/php7.2-fpm.sock:", host: "ptr.twigtraining.40.aum"
+2020/05/28 16:11:13 [error] 2226#2226: *1080 FastCGI sent in stderr: "PHP message: PHP Warning:  preg_grep(): Compilation failed: range out of order in character class at offset 4 in /home/payalt/web/ptr.twigtraining.40.aum/reg.php on line 66" while reading response header from upstream, client: 127.0.0.1, server: ptr.twigtraining.40.aum, request: "GET /reg.php HTTP/2.0", upstream: "fastcgi://unix:/run/php/php7.2-fpm.sock:", host: "ptr.twigtraining.40.aum"
+2020/05/28 17:08:09 [error] 2226#2226: *1105 FastCGI sent in stderr: "PHP message: PHP Warning:  preg_match_all(): Unknown modifier 'g' in /home/payalt/web/ptr.twigtraining.40.aum/reg.php on line 81" while reading response header from upstream, client: 127.0.0.1, server: ptr.twigtraining.40.aum, request: "GET /reg.php HTTP/2.0", upstream: "fastcgi://unix:/run/php/php7.2-fpm.sock:", host: "ptr.twigtraining.40.aum"
+2020/05/28 17:08:10 [error] 2226#2226: *1105 FastCGI sent in stderr: "PHP message: PHP Warning:  preg_match_all(): Unknown modifier 'g' in /home/payalt/web/ptr.twigtraining.40.aum/reg.php on line 81" while reading response header from upstream, client: 127.0.0.1, server: ptr.twigtraining.40.aum, request: "GET /reg.php HTTP/2.0", upstream: "fastcgi://unix:/run/php/php7.2-fpm.sock:", host: "ptr.twigtraining.40.aum"
+2020/05/28 17:08:10 [error] 2226#2226: *1105 FastCGI sent in stderr: "PHP message: PHP Warning:  preg_match_all(): Unknown modifier 'g' in /home/payalt/web/ptr.twigtraining.40.aum/reg.php on line 81" while reading response header from upstream, client: 127.0.0.1, server: ptr.twigtraining.40.aum, request: "GET /reg.php HTTP/2.0", upstream: "fastcgi://unix:/run/php/php7.2-fpm.sock:", host: "ptr.twigtraining.40.aum"
+2020/05/28 17:08:10 [error] 2226#2226: *1105 FastCGI sent in stderr: "PHP message: PHP Warning:  preg_match_all(): Unknown modifier 'g' in /home/payalt/web/ptr.twigtraining.40.aum/reg.php on line 81" while reading response header from upstream, client: 127.0.0.1, server: ptr.twigtraining.40.aum, request: "GET /reg.php HTTP/2.0", upstream: "fastcgi://unix:/run/php/php7.2-fpm.sock:", host: "ptr.twigtraining.40.aum"
+2020/05/28 17:26:48 [error] 2226#2226: *1136 FastCGI sent in stderr: "PHP message: PHP Warning:  preg_match_all(): Unknown modifier 'g' in /home/payalt/web/ptr.twigtraining.40.aum/reg.php on line 87" while reading response header from upstream, client: 127.0.0.1, server: ptr.twigtraining.40.aum, request: "GET /reg.php HTTP/2.0", upstream: "fastcgi://unix:/run/php/php7.2-fpm.sock:", host: "ptr.twigtraining.40.aum"
+2020/05/28 17:26:49 [error] 2226#2226: *1136 FastCGI sent in stderr: "PHP message: PHP Warning:  preg_match_all(): Unknown modifier 'g' in /home/payalt/web/ptr.twigtraining.40.aum/reg.php on line 87" while reading response header from upstream, client: 127.0.0.1, server: ptr.twigtraining.40.aum, request: "GET /reg.php HTTP/2.0", upstream: "fastcgi://unix:/run/php/php7.2-fpm.sock:", host: "ptr.twigtraining.40.aum"
+2020/05/28 17:26:50 [error] 2226#2226: *1136 FastCGI sent in stderr: "PHP message: PHP Warning:  preg_match_all(): Unknown modifier 'g' in /home/payalt/web/ptr.twigtraining.40.aum/reg.php on line 87" while reading response header from upstream, client: 127.0.0.1, server: ptr.twigtraining.40.aum, request: "GET /reg.php HTTP/2.0", upstream: "fastcgi://unix:/run/php/php7.2-fpm.sock:", host: "ptr.twigtraining.40.aum"
+2020/05/28 17:27:23 [error] 2226#2226: *1136 FastCGI sent in stderr: "PHP message: PHP Warning:  preg_match_all(): Unknown modifier 'g' in /home/payalt/web/ptr.twigtraining.40.aum/reg.php on line 87" while reading response header from upstream, client: 127.0.0.1, server: ptr.twigtraining.40.aum, request: "GET /reg.php HTTP/2.0", upstream: "fastcgi://unix:/run/php/php7.2-fpm.sock:", host: "ptr.twigtraining.40.aum"
+2020/05/28 17:27:23 [error] 2226#2226: *1136 FastCGI sent in stderr: "PHP message: PHP Warning:  preg_match_all(): Unknown modifier 'g' in /home/payalt/web/ptr.twigtraining.40.aum/reg.php on line 87" while reading response header from upstream, client: 127.0.0.1, server: ptr.twigtraining.40.aum, request: "GET /reg.php HTTP/2.0", upstream: "fastcgi://unix:/run/php/php7.2-fpm.sock:", host: "ptr.twigtraining.40.aum"
+2020/05/28 17:27:24 [error] 2226#2226: *1136 FastCGI sent in stderr: "PHP message: PHP Warning:  preg_match_all(): Unknown modifier 'g' in /home/payalt/web/ptr.twigtraining.40.aum/reg.php on line 87" while reading response header from upstream, client: 127.0.0.1, server: ptr.twigtraining.40.aum, request: "GET /reg.php HTTP/2.0", upstream: "fastcgi://unix:/run/php/php7.2-fpm.sock:", host: "ptr.twigtraining.40.aum"
+2020/05/28 17:28:57 [error] 2226#2226: *1136 FastCGI sent in stderr: "PHP message: PHP Warning:  preg_match_all(): Unknown modifier 'g' in /home/payalt/web/ptr.twigtraining.40.aum/reg.php on line 92" while reading response header from upstream, client: 127.0.0.1, server: ptr.twigtraining.40.aum, request: "GET /reg.php HTTP/2.0", upstream: "fastcgi://unix:/run/php/php7.2-fpm.sock:", host: "ptr.twigtraining.40.aum"
+2020/05/28 17:29:07 [error] 2226#2226: *1136 FastCGI sent in stderr: "PHP message: PHP Warning:  preg_match_all(): Unknown modifier 'g' in /home/payalt/web/ptr.twigtraining.40.aum/reg.php on line 92" while reading response header from upstream, client: 127.0.0.1, server: ptr.twigtraining.40.aum, request: "GET /reg.php HTTP/2.0", upstream: "fastcgi://unix:/run/php/php7.2-fpm.sock:", host: "ptr.twigtraining.40.aum"
+2020/05/28 17:29:08 [error] 2226#2226: *1136 FastCGI sent in stderr: "PHP message: PHP Warning:  preg_match_all(): Unknown modifier 'g' in /home/payalt/web/ptr.twigtraining.40.aum/reg.php on line 92" while reading response header from upstream, client: 127.0.0.1, server: ptr.twigtraining.40.aum, request: "GET /reg.php HTTP/2.0", upstream: "fastcgi://unix:/run/php/php7.2-fpm.sock:", host: "ptr.twigtraining.40.aum"
+2020/05/28 17:29:08 [error] 2226#2226: *1136 FastCGI sent in stderr: "PHP message: PHP Warning:  preg_match_all(): Unknown modifier 'g' in /home/payalt/web/ptr.twigtraining.40.aum/reg.php on line 92" while reading response header from upstream, client: 127.0.0.1, server: ptr.twigtraining.40.aum, request: "GET /reg.php HTTP/2.0", upstream: "fastcgi://unix:/run/php/php7.2-fpm.sock:", host: "ptr.twigtraining.40.aum"
+2020/05/28 17:29:08 [error] 2226#2226: *1136 FastCGI sent in stderr: "PHP message: PHP Warning:  preg_match_all(): Unknown modifier 'g' in /home/payalt/web/ptr.twigtraining.40.aum/reg.php on line 92" while reading response header from upstream, client: 127.0.0.1, server: ptr.twigtraining.40.aum, request: "GET /reg.php HTTP/2.0", upstream: "fastcgi://unix:/run/php/php7.2-fpm.sock:", host: "ptr.twigtraining.40.aum"
+2020/05/28 17:29:08 [error] 2226#2226: *1136 FastCGI sent in stderr: "PHP message: PHP Warning:  preg_match_all(): Unknown modifier 'g' in /home/payalt/web/ptr.twigtraining.40.aum/reg.php on line 92" while reading response header from upstream, client: 127.0.0.1, server: ptr.twigtraining.40.aum, request: "GET /reg.php HTTP/2.0", upstream: "fastcgi://unix:/run/php/php7.2-fpm.sock:", host: "ptr.twigtraining.40.aum"
+2020/05/28 17:29:08 [error] 2226#2226: *1136 FastCGI sent in stderr: "PHP message: PHP Warning:  preg_match_all(): Unknown modifier 'g' in /home/payalt/web/ptr.twigtraining.40.aum/reg.php on line 92" while reading response header from upstream, client: 127.0.0.1, server: ptr.twigtraining.40.aum, request: "GET /reg.php HTTP/2.0", upstream: "fastcgi://unix:/run/php/php7.2-fpm.sock:", host: "ptr.twigtraining.40.aum"
+2020/05/28 17:29:09 [error] 2226#2226: *1136 FastCGI sent in stderr: "PHP message: PHP Warning:  preg_match_all(): Unknown modifier 'g' in /home/payalt/web/ptr.twigtraining.40.aum/reg.php on line 92" while reading response header from upstream, client: 127.0.0.1, server: ptr.twigtraining.40.aum, request: "GET /reg.php HTTP/2.0", upstream: "fastcgi://unix:/run/php/php7.2-fpm.sock:", host: "ptr.twigtraining.40.aum"
+2020/05/28 17:29:09 [error] 2226#2226: *1136 FastCGI sent in stderr: "PHP message: PHP Warning:  preg_match_all(): Unknown modifier 'g' in /home/payalt/web/ptr.twigtraining.40.aum/reg.php on line 92" while reading response header from upstream, client: 127.0.0.1, server: ptr.twigtraining.40.aum, request: "GET /reg.php HTTP/2.0", upstream: "fastcgi://unix:/run/php/php7.2-fpm.sock:", host: "ptr.twigtraining.40.aum"
+2020/05/28 17:29:09 [error] 2226#2226: *1136 FastCGI sent in stderr: "PHP message: PHP Warning:  preg_match_all(): Unknown modifier 'g' in /home/payalt/web/ptr.twigtraining.40.aum/reg.php on line 92" while reading response header from upstream, client: 127.0.0.1, server: ptr.twigtraining.40.aum, request: "GET /reg.php HTTP/2.0", upstream: "fastcgi://unix:/run/php/php7.2-fpm.sock:", host: "ptr.twigtraining.40.aum"
+2020/05/28 17:29:10 [error] 2226#2226: *1136 FastCGI sent in stderr: "PHP message: PHP Warning:  preg_match_all(): Unknown modifier 'g' in /home/payalt/web/ptr.twigtraining.40.aum/reg.php on line 92" while reading response header from upstream, client: 127.0.0.1, server: ptr.twigtraining.40.aum, request: "GET /reg.php HTTP/2.0", upstream: "fastcgi://unix:/run/php/php7.2-fpm.sock:", host: "ptr.twigtraining.40.aum"
+2020/05/28 17:29:30 [error] 2226#2226: *1136 FastCGI sent in stderr: "PHP message: PHP Warning:  preg_match_all(): Unknown modifier 'g' in /home/payalt/web/ptr.twigtraining.40.aum/reg.php on line 92" while reading response header from upstream, client: 127.0.0.1, server: ptr.twigtraining.40.aum, request: "GET /reg.php HTTP/2.0", upstream: "fastcgi://unix:/run/php/php7.2-fpm.sock:", host: "ptr.twigtraining.40.aum"
+2020/05/28 17:29:30 [error] 2226#2226: *1136 FastCGI sent in stderr: "PHP message: PHP Warning:  preg_match_all(): Unknown modifier 'g' in /home/payalt/web/ptr.twigtraining.40.aum/reg.php on line 92" while reading response header from upstream, client: 127.0.0.1, server: ptr.twigtraining.40.aum, request: "GET /reg.php HTTP/2.0", upstream: "fastcgi://unix:/run/php/php7.2-fpm.sock:", host: "ptr.twigtraining.40.aum"
+2020/05/28 17:29:31 [error] 2226#2226: *1136 FastCGI sent in stderr: "PHP message: PHP Warning:  preg_match_all(): Unknown modifier 'g' in /home/payalt/web/ptr.twigtraining.40.aum/reg.php on line 92" while reading response header from upstream, client: 127.0.0.1, server: ptr.twigtraining.40.aum, request: "GET /reg.php HTTP/2.0", upstream: "fastcgi://unix:/run/php/php7.2-fpm.sock:", host: "ptr.twigtraining.40.aum"
+2020/05/28 17:29:31 [error] 2226#2226: *1136 FastCGI sent in stderr: "PHP message: PHP Warning:  preg_match_all(): Unknown modifier 'g' in /home/payalt/web/ptr.twigtraining.40.aum/reg.php on line 92" while reading response header from upstream, client: 127.0.0.1, server: ptr.twigtraining.40.aum, request: "GET /reg.php HTTP/2.0", upstream: "fastcgi://unix:/run/php/php7.2-fpm.sock:", host: "ptr.twigtraining.40.aum"
+2020/05/28 17:29:59 [error] 2226#2226: *1136 FastCGI sent in stderr: "PHP message: PHP Warning:  preg_match_all(): Unknown modifier 'g' in /home/payalt/web/ptr.twigtraining.40.aum/reg.php on line 92" while reading response header from upstream, client: 127.0.0.1, server: ptr.twigtraining.40.aum, request: "GET /reg.php HTTP/2.0", upstream: "fastcgi://unix:/run/php/php7.2-fpm.sock:", host: "ptr.twigtraining.40.aum"
+2020/05/28 17:30:12 [error] 2226#2226: *1136 FastCGI sent in stderr: "PHP message: PHP Warning:  preg_match_all(): Unknown modifier 'g' in /home/payalt/web/ptr.twigtraining.40.aum/reg.php on line 92" while reading response header from upstream, client: 127.0.0.1, server: ptr.twigtraining.40.aum, request: "GET /reg.php HTTP/2.0", upstream: "fastcgi://unix:/run/php/php7.2-fpm.sock:", host: "ptr.twigtraining.40.aum"
+2020/05/28 17:30:13 [error] 2226#2226: *1136 FastCGI sent in stderr: "PHP message: PHP Warning:  preg_match_all(): Unknown modifier 'g' in /home/payalt/web/ptr.twigtraining.40.aum/reg.php on line 92" while reading response header from upstream, client: 127.0.0.1, server: ptr.twigtraining.40.aum, request: "GET /reg.php HTTP/2.0", upstream: "fastcgi://unix:/run/php/php7.2-fpm.sock:", host: "ptr.twigtraining.40.aum"
+2020/05/28 17:30:18 [error] 2226#2226: *1136 FastCGI sent in stderr: "PHP message: PHP Warning:  preg_match_all(): Unknown modifier 'g' in /home/payalt/web/ptr.twigtraining.40.aum/reg.php on line 92" while reading response header from upstream, client: 127.0.0.1, server: ptr.twigtraining.40.aum, request: "GET /reg.php HTTP/2.0", upstream: "fastcgi://unix:/run/php/php7.2-fpm.sock:", host: "ptr.twigtraining.40.aum"
+2020/05/28 17:30:19 [error] 2226#2226: *1136 FastCGI sent in stderr: "PHP message: PHP Warning:  preg_match_all(): Unknown modifier 'g' in /home/payalt/web/ptr.twigtraining.40.aum/reg.php on line 92" while reading response header from upstream, client: 127.0.0.1, server: ptr.twigtraining.40.aum, request: "GET /reg.php HTTP/2.0", upstream: "fastcgi://unix:/run/php/php7.2-fpm.sock:", host: "ptr.twigtraining.40.aum"
+2020/05/28 17:30:19 [error] 2226#2226: *1136 FastCGI sent in stderr: "PHP message: PHP Warning:  preg_match_all(): Unknown modifier 'g' in /home/payalt/web/ptr.twigtraining.40.aum/reg.php on line 92" while reading response header from upstream, client: 127.0.0.1, server: ptr.twigtraining.40.aum, request: "GET /reg.php HTTP/2.0", upstream: "fastcgi://unix:/run/php/php7.2-fpm.sock:", host: "ptr.twigtraining.40.aum"
+2020/05/28 17:30:19 [error] 2226#2226: *1136 FastCGI sent in stderr: "PHP message: PHP Warning:  preg_match_all(): Unknown modifier 'g' in /home/payalt/web/ptr.twigtraining.40.aum/reg.php on line 92" while reading response header from upstream, client: 127.0.0.1, server: ptr.twigtraining.40.aum, request: "GET /reg.php HTTP/2.0", upstream: "fastcgi://unix:/run/php/php7.2-fpm.sock:", host: "ptr.twigtraining.40.aum"
+2020/05/28 17:30:20 [error] 2226#2226: *1136 FastCGI sent in stderr: "PHP message: PHP Warning:  preg_match_all(): Unknown modifier 'g' in /home/payalt/web/ptr.twigtraining.40.aum/reg.php on line 92" while reading response header from upstream, client: 127.0.0.1, server: ptr.twigtraining.40.aum, request: "GET /reg.php HTTP/2.0", upstream: "fastcgi://unix:/run/php/php7.2-fpm.sock:", host: "ptr.twigtraining.40.aum"
+2020/05/28 17:30:20 [error] 2226#2226: *1136 open() "/home/payalt/web/ptr.twigtraining.40.aum/favicon.ico" failed (2: No such file or directory), client: 127.0.0.1, server: ptr.twigtraining.40.aum, request: "GET /favicon.ico HTTP/2.0", host: "ptr.twigtraining.40.aum", referrer: "https://ptr.twigtraining.40.aum/reg.php"
+2020/05/28 17:31:04 [error] 2226#2226: *1136 FastCGI sent in stderr: "PHP message: PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO) in /home/payalt/web/ptr.twigtraining.40.aum/reg.php on line 37" while reading response header from upstream, client: 127.0.0.1, server: ptr.twigtraining.40.aum, request: "GET /reg.php HTTP/2.0", upstream: "fastcgi://unix:/run/php/php7.2-fpm.sock:", host: "ptr.twigtraining.40.aum"
+2020/05/28 17:31:16 [error] 2226#2226: *1136 FastCGI sent in stderr: "PHP message: PHP Warning:  preg_match_all(): Unknown modifier 'g' in /home/payalt/web/ptr.twigtraining.40.aum/reg.php on line 92" while reading response header from upstream, client: 127.0.0.1, server: ptr.twigtraining.40.aum, request: "GET /reg.php HTTP/2.0", upstream: "fastcgi://unix:/run/php/php7.2-fpm.sock:", host: "ptr.twigtraining.40.aum"
+2020/05/28 17:31:27 [error] 2226#2226: *1136 FastCGI sent in stderr: "PHP message: PHP Warning:  preg_match_all(): Unknown modifier 'g' in /home/payalt/web/ptr.twigtraining.40.aum/reg.php on line 92" while reading response header from upstream, client: 127.0.0.1, server: ptr.twigtraining.40.aum, request: "GET /reg.php HTTP/2.0", upstream: "fastcgi://unix:/run/php/php7.2-fpm.sock:", host: "ptr.twigtraining.40.aum"
+2020/05/28 17:31:28 [error] 2226#2226: *1136 FastCGI sent in stderr: "PHP message: PHP Warning:  preg_match_all(): Unknown modifier 'g' in /home/payalt/web/ptr.twigtraining.40.aum/reg.php on line 92" while reading response header from upstream, client: 127.0.0.1, server: ptr.twigtraining.40.aum, request: "GET /reg.php HTTP/2.0", upstream: "fastcgi://unix:/run/php/php7.2-fpm.sock:", host: "ptr.twigtraining.40.aum"
+2020/05/28 17:31:28 [error] 2226#2226: *1136 FastCGI sent in stderr: "PHP message: PHP Warning:  preg_match_all(): Unknown modifier 'g' in /home/payalt/web/ptr.twigtraining.40.aum/reg.php on line 92" while reading response header from upstream, client: 127.0.0.1, server: ptr.twigtraining.40.aum, request: "GET /reg.php HTTP/2.0", upstream: "fastcgi://unix:/run/php/php7.2-fpm.sock:", host: "ptr.twigtraining.40.aum"
+2020/05/28 17:31:28 [error] 2226#2226: *1136 FastCGI sent in stderr: "PHP message: PHP Warning:  preg_match_all(): Unknown modifier 'g' in /home/payalt/web/ptr.twigtraining.40.aum/reg.php on line 92" while reading response header from upstream, client: 127.0.0.1, server: ptr.twigtraining.40.aum, request: "GET /reg.php HTTP/2.0", upstream: "fastcgi://unix:/run/php/php7.2-fpm.sock:", host: "ptr.twigtraining.40.aum"
+2020/05/28 17:31:33 [error] 2226#2226: *1136 FastCGI sent in stderr: "PHP message: PHP Warning:  preg_match_all(): Unknown modifier 'g' in /home/payalt/web/ptr.twigtraining.40.aum/reg.php on line 92" while reading response header from upstream, client: 127.0.0.1, server: ptr.twigtraining.40.aum, request: "GET /reg.php HTTP/2.0", upstream: "fastcgi://unix:/run/php/php7.2-fpm.sock:", host: "ptr.twigtraining.40.aum"
+2020/05/28 17:31:56 [error] 2226#2226: *1136 FastCGI sent in stderr: "PHP message: PHP Warning:  preg_match_all(): Unknown modifier 'g' in /home/payalt/web/ptr.twigtraining.40.aum/reg.php on line 92" while reading response header from upstream, client: 127.0.0.1, server: ptr.twigtraining.40.aum, request: "GET /reg.php HTTP/2.0", upstream: "fastcgi://unix:/run/php/php7.2-fpm.sock:", host: "ptr.twigtraining.40.aum"
+2020/05/28 17:32:00 [error] 2226#2226: *1136 FastCGI sent in stderr: "PHP message: PHP Warning:  preg_match_all(): Unknown modifier 'g' in /home/payalt/web/ptr.twigtraining.40.aum/reg.php on line 92" while reading response header from upstream, client: 127.0.0.1, server: ptr.twigtraining.40.aum, request: "GET /reg.php HTTP/2.0", upstream: "fastcgi://unix:/run/php/php7.2-fpm.sock:", host: "ptr.twigtraining.40.aum"
+2020/05/28 17:32:53 [error] 2226#2226: *1136 FastCGI sent in stderr: "PHP message: PHP Warning:  preg_match_all(): Unknown modifier 'g' in /home/payalt/web/ptr.twigtraining.40.aum/reg.php on line 92" while reading response header from upstream, client: 127.0.0.1, server: ptr.twigtraining.40.aum, request: "GET /reg.php HTTP/2.0", upstream: "fastcgi://unix:/run/php/php7.2-fpm.sock:", host: "ptr.twigtraining.40.aum"
+2020/05/28 17:32:54 [error] 2226#2226: *1136 FastCGI sent in stderr: "PHP message: PHP Warning:  preg_match_all(): Unknown modifier 'g' in /home/payalt/web/ptr.twigtraining.40.aum/reg.php on line 92" while reading response header from upstream, client: 127.0.0.1, server: ptr.twigtraining.40.aum, request: "GET /reg.php HTTP/2.0", upstream: "fastcgi://unix:/run/php/php7.2-fpm.sock:", host: "ptr.twigtraining.40.aum"
+2020/05/28 17:32:54 [error] 2226#2226: *1136 FastCGI sent in stderr: "PHP message: PHP Warning:  preg_match_all(): Unknown modifier 'g' in /home/payalt/web/ptr.twigtraining.40.aum/reg.php on line 92" while reading response header from upstream, client: 127.0.0.1, server: ptr.twigtraining.40.aum, request: "GET /reg.php HTTP/2.0", upstream: "fastcgi://unix:/run/php/php7.2-fpm.sock:", host: "ptr.twigtraining.40.aum"
+2020/05/28 17:32:59 [error] 2226#2226: *1136 FastCGI sent in stderr: "PHP message: PHP Warning:  preg_match_all(): Unknown modifier 'g' in /home/payalt/web/ptr.twigtraining.40.aum/reg.php on line 92" while reading response header from upstream, client: 127.0.0.1, server: ptr.twigtraining.40.aum, request: "GET /reg.php HTTP/2.0", upstream: "fastcgi://unix:/run/php/php7.2-fpm.sock:", host: "ptr.twigtraining.40.aum"
+2020/05/28 17:59:48 [error] 2226#2226: *1180 FastCGI sent in stderr: "PHP message: PHP Warning:  preg_match_all(): Unknown modifier 'g' in /home/payalt/web/ptr.twigtraining.40.aum/reg.php on line 92" while reading response header from upstream, client: 127.0.0.1, server: ptr.twigtraining.40.aum, request: "GET /reg.php HTTP/2.0", upstream: "fastcgi://unix:/run/php/php7.2-fpm.sock:", host: "ptr.twigtraining.40.aum"

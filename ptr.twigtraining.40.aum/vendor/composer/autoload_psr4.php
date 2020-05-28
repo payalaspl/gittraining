@@ -6,6 +6,7 @@ $vendorDir = dirname(dirname(__FILE__));
 $baseDir = dirname($vendorDir);
 
 return array(
+    'Twig\\Extra\\Markdown\\' => array($vendorDir . '/twig/markdown-extra/src'),
     'Twig\\Extra\\Intl\\' => array($vendorDir . '/twig/intl-extra/src'),
     'Twig\\Extra\\CssInliner\\' => array($vendorDir . '/twig/cssinliner-extra/src'),
     'Twig\\' => array($vendorDir . '/twig/twig/src'),

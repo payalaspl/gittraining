@@ -15,6 +15,7 @@ class ComposerStaticInite14979788a613cb64254a5beada1a6c0
     public static $prefixLengthsPsr4 = array (
         'T' => 
         array (
+            'Twig\\Extra\\Markdown\\' => 20,
             'Twig\\Extra\\Intl\\' => 16,
             'Twig\\Extra\\CssInliner\\' => 22,
             'Twig\\' => 5,
@@ -30,6 +31,10 @@ class ComposerStaticInite14979788a613cb64254a5beada1a6c0
     );
 
     public static $prefixDirsPsr4 = array (
+        'Twig\\Extra\\Markdown\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/twig/markdown-extra/src',
+        ),
         'Twig\\Extra\\Intl\\' => 
         array (
             0 => __DIR__ . '/..' . '/twig/intl-extra/src',

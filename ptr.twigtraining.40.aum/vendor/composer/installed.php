@@ -7,7 +7,7 @@
     array (
       0 => '9999999-dev',
     ),
-    'reference' => '9d6570fbca3cb5bfb7971cc1ae8574e18ab9394d',
+    'reference' => 'ee71d20b4a7f6352e4d8bb417cfdae0328e1dcc3',
     'name' => '__root__',
   ),
   'versions' => 
@@ -20,7 +20,7 @@
       array (
         0 => '9999999-dev',
       ),
-      'reference' => '9d6570fbca3cb5bfb7971cc1ae8574e18ab9394d',
+      'reference' => 'ee71d20b4a7f6352e4d8bb417cfdae0328e1dcc3',
     ),
     'symfony/css-selector' => 
     array (
@@ -93,6 +93,15 @@
       array (
       ),
       'reference' => '55d68a5836f40d62695488b4bdbc71fa71f52574',
+    ),
+    'twig/markdown-extra' => 
+    array (
+      'pretty_version' => 'v3.0.3',
+      'version' => '3.0.3.0',
+      'aliases' => 
+      array (
+      ),
+      'reference' => 'c9d09a12024febcb6976886794d095a31f1ce6fa',
     ),
     'twig/twig' => 
     array (

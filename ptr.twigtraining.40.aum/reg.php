@@ -1,59 +1,96 @@
-<b>Quanti­fiers</b>
-<span>
-+ , * , ? , {n}
-</span>
-<?php
-$pattern = "/[\s,]+/";
-$text = "My favourite colors are red, green and blue";
-$parts = preg_split($pattern, $text);
- 
-// Loop through parts array and display substrings
-foreach($parts as $part){
-    echo $part . "<br>";
+<?php   
+if(preg_match("/ca+t/", "caaaaaaat")){
+    echo "true";
+} else{
+    echo "false";
 }
-?>
-<b>Anchors</b>
-<?php
+if(preg_match("/ca+t/", "ct")){
+    echo "true";
+} else{
+    echo "false";
+}
 
-$pattern1 = "/^C/";
+if(preg_match("/ca?t/", "caaaaaaaaat")){
+    echo "true";
+} else{
+    echo "false";
+}
+
+if(preg_match("/ca?t/", "cat")){
+    echo "true";
+} else{
+    echo "false";
+}
+
+if(preg_match("/ca*t/", "ct")){
+    echo "true";
+} else{
+    echo "false";
+}
+
+if(preg_match("/a{4}/", "aaaaaa")){
+    echo "true";// output
+} else{
+    echo "false"; 
+}
+if(preg_match("/a{2,3}/", "a")){
+    echo "true";
+} else{
+    echo "false"; // output
+}
+echo "<br>";
+$pattern = "/^J.+r$/";
 $names = array("Jhon Carter", "Clark Kent", "John Rambo");
-$matches = preg_grep($pattern1, $names);
- 
-// Loop through matches array and display matched names
+$matches = preg_grep($pattern, $names);
 foreach($matches as $match){
     echo $match . "<br>";
 }
-?>
-<b>Pattern Modifiers</b>
-<?php
-$pattern3 = "/color/i";
-$text3 = "Color red is more visible than color blue in daylight.";
-$matches1 = preg_match_all($pattern3, $text3, $array);
-echo $matches1. " matches were found.";
 
-?><br/>
-<?php
-$subject='Give me 10 eggs';
-$pattern='~\b(\d+)\s*(\w+)$~';
+$pattern1 = "/ca[kf]e/";
+$text = "He was eating cake in the cafe.";
+if(preg_match($pattern1, $text)){
+    echo "Match found!";
+} else{
+    echo "Match not found.";
+}
 
-$success = preg_match($pattern, $subject, $match);
-if ($success) {
-	echo "Match: ".$match[0]."<br />"; 
-	echo "Group 1: ".$match[1]."<br />"; 
-	echo "Group 2: ".$match[2]."<br />"; 
-	}
 echo "<br>";
-$subject1='Give me 12 eggs then 12 more.';
-$pattern12='~\d+~';
-$newstring = preg_replace($pattern12, "6", $subject1);
-echo $newstring;
+$regex = '/^[a-zA-Z ]*$/'; 
+$nameString = '00Sharukh khan'; 
+if(preg_match($regex, $nameString)) { 
+    echo("Name string matching with"
+        . " regular expression"); 
+} 
+else { 
+    echo("Only letters and white space"
+        . " allowed in name string");  
+}
 
-$str = "token1@@ABC123token2@@DEF456token3";
-$regex = "/@@([A-Z]{3})(\d{3})/";
-print_r(preg_split($regex,$str,-1,PREG_SPLIT_DELIM_CAPTURE));
+echo "<br>";
+$regex1 = "([0-9]+)"; 
+$original = "Completed graduation in 2004"; 
+$replaceWith = "2002"; 
+$original = preg_replace($regex1, $replaceWith, $original);     
+echo $original; 
+
+$names = array('andrew','john','peter','nastin','bill');
+$output = preg_grep('/^[abc]/', $names);
+print_r( $output );
+
+$pattern2 = "/color/i";
+$text2 = "Color red is more visible than color blue in daylight.";
+$matches = preg_match_all($pattern2, $text2, $array);
+echo $matches . " matches were found.";
+
+$pattern3 = "/^color/im";
+$text3 = "Color red is more visible than \ncolor blue in daylight.dfffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffg hjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj\njjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjdf \nColor";
+$matches3 = preg_match_all($pattern3, $text3, $array);
+echo $matches3 . " matches were found.";
 
 
-$string2 = "(TheDayMyVoiceBroke)";
-$regex1 = "~(?=[A-Z])~";
-echo preg_replace($regex1," ",$string2);
+$pattern5 = '/\bcar\w*/';
+$replacement = '<b>$0</b>';
+$text = 'Words begining with car: cart, carrot, cartoon. Words ending with car: scar, oscar, supercar.';
+echo preg_replace($pattern5, $replacement, $text);
+
 ?>
