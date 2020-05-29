@@ -93,4 +93,64 @@ $replacement = '<b>$0</b>';
 $text = 'Words begining with car: cart, carrot, cartoon. Words ending with car: scar, oscar, supercar.';
 echo preg_replace($pattern5, $replacement, $text);
 
+$name = "one five six two";
+if (preg_match('/(one|two)/', $name)) {echo 'true';}
+
+$pattern6 = "/[\w|\d]+/";
+$string6 = "[abc - 123 - def - 456 - ghi - 789 - jkl]";
+preg_match_all($pattern6, $string6, $matches6);
+print_r($matches6[0]);
+
+$pattern7 = "/\s/"; //output : Earth-revolves-around-the-Sun
+$replacement7 = "-";
+$text7 = "Earth revolves around\nthe\tSun";
+echo preg_replace($pattern7, $replacement7, $text7);
+
+$pattern8 = "/\S/"; //output : ----- -------- ------ --- ---
+$replacement8 = "-";
+$text8 = "Earth revolves around\nthe\tSun";
+echo preg_replace($pattern8, $replacement8, $text8);
+
+$pattern9 = "/\d/"; //output : aaabbb
+$replacement9 = "a";
+$text9 = "123bbb";
+echo preg_replace($pattern9, $replacement9, $text9);
+
+$pattern10 = "/\D/"; //output : 123aaa
+$replacement10 = "a";
+$text10 = "123bbb";
+echo preg_replace($pattern10, $replacement10, $text10);
+
+echo "<br>";
+$pattern11 = "/\w/"; //output : aaaaaa
+$replacement11 = "a";
+$text11 = "123bbb";
+echo preg_replace($pattern11, $replacement11, $text11);
+
+
+$text = "foobar foobar foobar fooabar";
+$rules = "/foo(?!bar)/";
+$newLine = preg_replace($rules, "\thahaha", $text);
+print_r( $newLine );
+
+$text1 = "foobar foobar foobar  foowbar";
+$rules1 = "/foo(?=bar)/";
+$newLine1 = preg_replace($rules1, "\thahaha", $text1);
+print_r( $newLine1 );
+
+$str = "hello worlddsdd hello world payal";
+$newstr = preg_replace('/(?<=hello )world/i', 'NEWVAL', $str, -1, $count);
+if ($count > 0) {
+  echo "\n$newstr\n";
+} else {
+  echo "No replacement\n";
+}
+
+
+$re = '/(?(?=abc)a|2)/m';
+$str = '1a 2a abc';
+preg_match($re, $str, $matches);
+// Print the entire match result
+print_r($matches);
+
 ?>
