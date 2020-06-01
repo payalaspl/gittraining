@@ -3,9 +3,9 @@
 // Load our autoloader
 require_once __DIR__.'/vendor/autoload.php';
 require_once 'project_twig_extension.php';
-use Twig\Extra\Markdown\MarkdownExtension;// ]Specify our Twig templates location
-use Twig\Extra\Markdown\MarkdownRuntime;
-use Twig\Extra\Markdown\DefaultMarkdown;
+use Twig\Extra\Intl\IntlExtension;
+use Twig\Extra\Html\HtmlExtension;
+use Twig\Extra\CssInliner\CssInlinerExtension;
 
 $loader = new \Twig\Loader\FilesystemLoader(__DIR__ . '/templates');
 
@@ -23,15 +23,8 @@ $function = new \Twig\TwigFunction('uppertext', function ($string) {
 $twig = new \Twig\Environment($loader);
 $twig->addFilter($filter);
 $twig->addFunction($function);
+$twig->addExtension(new IntlExtension());
+$twig->addExtension(new HtmlExtension());
+$twig->addExtension(new CssInlinerExtension());
 $twig->addExtension(new Project_Twig_Extension());
-$twig->addExtension(new MarkdownExtension());
-use Twig\RuntimeLoader\RuntimeLoaderInterface;
-
-$twig->addRuntimeLoader(new class implements RuntimeLoaderInterface {
-    public function load($class) {
-        if (MarkdownRuntime::class === $class) {
-            return new MarkdownRuntime(new DefaultMarkdown());
-        }
-    }
-});
 ?>

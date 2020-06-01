@@ -6,8 +6,6 @@ class Project_Twig_Extension extends \Twig\Extension\AbstractExtension
     {
         return [
 
-            
-
              new \Twig\TwigFunction('lipsum', 'generate_lipsum'),
         ];
     }

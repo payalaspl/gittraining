@@ -20,6 +20,23 @@
     the foo attribute really is false.
 {% endif %}
 
+
+{{ 'US'|country_name('fr') }}
 {{ 'Twig'|rot13filter }}
 {{ uppertext('payal') }}
 {{ 'Twig'|rot13 }}
+
+{{ image_data|data_uri }}
+
+{# force the mime type, disable the guessing of the mime type #}
+{{ image_data|data_uri(mime="image/jpg") }}
+
+{# also works with plain text #}
+{{ '<b>foobar</b>'|data_uri(mime="text/html") }}
+
+{# add some extra parameters #}
+{{ '<b>foobar</b>'|data_uri(mime="text/html", parameters={charset: "ascii"}) }}
+
+{{ include('some_template.html.twig')|inline_css }}
+
+

@@ -30,7 +30,7 @@ use Twig\Node\Node;
 use Twig\NodeVisitor\NodeVisitorInterface;
 use Twig\RuntimeLoader\RuntimeLoaderInterface;
 use Twig\TokenParser\TokenParserInterface;
-use Twig\Extra\Intl\IntlExtension;
+
 /**
  * Stores the Twig configuration.
  *
@@ -119,7 +119,7 @@ class Environment
         $this->addExtension(new CoreExtension());
         $this->addExtension(new EscaperExtension($options['autoescape']));
         $this->addExtension(new OptimizerExtension($options['optimizations']));
-       $this->addExtension(new IntlExtension());
+       
     }
 
     /**

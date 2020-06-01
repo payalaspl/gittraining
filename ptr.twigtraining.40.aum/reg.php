@@ -153,4 +153,33 @@ preg_match($re, $str, $matches);
 // Print the entire match result
 print_r($matches);
 
+
+if(preg_match("/[[:digit:]-]{2}/", "11")){
+    echo "true";
+} else{
+    echo "false";
+}
+
+$string8 = "payal ++*^&^&^ 123 - Payal";
+$newLine2 = preg_replace("/[^[:alpha:]0-9 ]/", 'a', $string8);
+print_r( $newLine2 );
+
+
+if(preg_match("/[[:alnum:]-]{2}/", "K1")){
+    echo "true";
+} else{
+    echo "false";
+}
+
+$string9 = "payal 123 Payal";//op:payal-123-Payal
+$newLine9 = preg_replace("/[[:space:]  ]/", '-', $string9);
+print_r( $newLine9 );
+
+$string10 = "payal 123 Payal";
+$newLine10 = preg_replace("/[[:upper:]]/", '-', $string10);
+print_r( $newLine10 );
+
+$string11 = "payal 123 Payal";//op:----- 123 P----
+$newLine11 = preg_replace("/[[:lower:]]/", '-', $string11);
+print_r( $newLine11 );
 ?>
