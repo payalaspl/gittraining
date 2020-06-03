@@ -1,0 +1,4 @@
+{% use "blocks.html" with sidebar as parent_sidebar %}
+{% block sidebar %}
+    {{ block('parent_sidebar') }}
+{% endblock %}

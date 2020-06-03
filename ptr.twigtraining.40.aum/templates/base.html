@@ -7,6 +7,11 @@
         {% endblock %}
     </head>
     <body>
+
+        {% block sidebar %}
+            <h3>Table Of fgf Contents</h3>
+        {% endblock %}
+
         <div id="content">{% block content %}{% endblock %}</div>
         <div id="footer">
             {% block footer %}

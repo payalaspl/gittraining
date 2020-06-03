@@ -1,19 +1,35 @@
-{% import "form.html" as forms %}
-{% autoescape 'html' %}
-{% set hello = "<strong>Hello</strong>" %}
-{{ hello }}
-{{ "<strong>world</strong>" }}
-{% do 1 + 2 %}
-{% endautoescape %}
-{% for i in 0..10 %}
-    * {{ i }}
-{% endfor %}
-<ul>
-    {% for user in users %}
-        <li>{{ user.name|e }}</li>
-    {% else %}
-        <li><em>no user found</em></li>
+{% set html %}
+    {{ include('parent.html.twig') }}
+{% endset %}
+{{ html }}
+
+{% set networks = {
+    twitter: { name: "Twitter", url: "http://twitter.com/mijingo" },
+    facebook: { name: "Facebook", url: "http://facebook.com/mijingo" },
+    instagram: { name: "Instagram", url: "http://instagram.com/mijingo" }
+    }
+%}
+
+{% macro socialList(networks, className) %}
+    <ul {% if className %}class="{{ className }}"{% endif %}>
+    {% for network in networks %}
+        <li class="{{ network.name | lower }}"><a href="{{ network.url }}">{{ network.name }}</a></li>
     {% endfor %}
-</ul>
-<p>{{ forms.input('username') }}</p>
-<p>{{ forms.input('password', null, 'password') }}</p>
+    </ul>
+{% endmacro %}
+
+
+{{ _self.socialList(networks, "three-share") }}
+
+{% set page = { title: 'About', 
+                subtitle: 'About Mijingo', 
+                slug: 'about' } 
+%}
+{% if attribute(page,'title') is defined %}
+<h1>fgf</h1>
+{% endif %}
+
+
+
+{{ lipsum('payal') }}
+{{ 'Twig'|rot13 }}

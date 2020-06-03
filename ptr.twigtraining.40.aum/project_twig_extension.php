@@ -6,7 +6,7 @@ class Project_Twig_Extension extends \Twig\Extension\AbstractExtension
     {
         return [
 
-             new \Twig\TwigFunction('lipsum', 'generate_lipsum'),
+             new \Twig\TwigFunction('lipsum', 'strtoupper'),
         ];
     }
     public function getFilters()
